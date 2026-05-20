@@ -1,0 +1,4002 @@
+[
+  {
+    "id": 0,
+    "korean": "안녕하세요",
+    "romanization": "annyeonghaseyo",
+    "meaning": "こんにちは",
+    "level": 1,
+    "pos": "感嘆詞"
+  },
+  {
+    "id": 1,
+    "korean": "감사합니다",
+    "romanization": "gamsahamnida",
+    "meaning": "ありがとうございます",
+    "level": 1,
+    "pos": "動詞"
+  },
+  {
+    "id": 2,
+    "korean": "사랑",
+    "romanization": "sarang",
+    "meaning": "愛、恋愛",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 3,
+    "korean": "학교",
+    "romanization": "hakgyo",
+    "meaning": "学校",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 4,
+    "korean": "선생님",
+    "romanization": "seonsaengnim",
+    "meaning": "先生",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 5,
+    "korean": "학생",
+    "romanization": "haksaeng",
+    "meaning": "学生",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 6,
+    "korean": "친구",
+    "romanization": "chingu",
+    "meaning": "友達",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 7,
+    "korean": "가족",
+    "romanization": "gajok",
+    "meaning": "家族",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 8,
+    "korean": "음식",
+    "romanization": "eumsik",
+    "meaning": "食べ物、料理",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 9,
+    "korean": "물",
+    "romanization": "mul",
+    "meaning": "水",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 10,
+    "korean": "밥",
+    "romanization": "bap",
+    "meaning": "ご飯",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 11,
+    "korean": "커피",
+    "romanization": "keopi",
+    "meaning": "コーヒー",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 12,
+    "korean": "책",
+    "romanization": "chaek",
+    "meaning": "本",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 13,
+    "korean": "시간",
+    "romanization": "sigan",
+    "meaning": "時間",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 14,
+    "korean": "오늘",
+    "romanization": "oneul",
+    "meaning": "今日",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 15,
+    "korean": "내일",
+    "romanization": "naeil",
+    "meaning": "明日",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 16,
+    "korean": "어제",
+    "romanization": "eoje",
+    "meaning": "昨日",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 17,
+    "korean": "사람",
+    "romanization": "saram",
+    "meaning": "人",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 18,
+    "korean": "집",
+    "romanization": "jip",
+    "meaning": "家",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 19,
+    "korean": "일",
+    "romanization": "il",
+    "meaning": "仕事、用事",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 20,
+    "korean": "먹다",
+    "romanization": "meokda",
+    "meaning": "食べる",
+    "level": 1,
+    "pos": "動詞"
+  },
+  {
+    "id": 21,
+    "korean": "마시다",
+    "romanization": "masida",
+    "meaning": "飲む",
+    "level": 1,
+    "pos": "動詞"
+  },
+  {
+    "id": 22,
+    "korean": "가다",
+    "romanization": "gada",
+    "meaning": "行く",
+    "level": 1,
+    "pos": "動詞"
+  },
+  {
+    "id": 23,
+    "korean": "오다",
+    "romanization": "oda",
+    "meaning": "来る",
+    "level": 1,
+    "pos": "動詞"
+  },
+  {
+    "id": 24,
+    "korean": "보다",
+    "romanization": "boda",
+    "meaning": "見る",
+    "level": 1,
+    "pos": "動詞"
+  },
+  {
+    "id": 25,
+    "korean": "듣다",
+    "romanization": "deutda",
+    "meaning": "聞く",
+    "level": 1,
+    "pos": "動詞"
+  },
+  {
+    "id": 26,
+    "korean": "말하다",
+    "romanization": "malhada",
+    "meaning": "話す、言う",
+    "level": 1,
+    "pos": "動詞"
+  },
+  {
+    "id": 27,
+    "korean": "읽다",
+    "romanization": "ikda",
+    "meaning": "読む",
+    "level": 1,
+    "pos": "動詞"
+  },
+  {
+    "id": 28,
+    "korean": "쓰다",
+    "romanization": "sseuda",
+    "meaning": "書く、使う",
+    "level": 1,
+    "pos": "動詞"
+  },
+  {
+    "id": 29,
+    "korean": "하다",
+    "romanization": "hada",
+    "meaning": "する、やる",
+    "level": 1,
+    "pos": "動詞"
+  },
+  {
+    "id": 30,
+    "korean": "좋다",
+    "romanization": "jota",
+    "meaning": "良い、好き",
+    "level": 1,
+    "pos": "形容詞"
+  },
+  {
+    "id": 31,
+    "korean": "크다",
+    "romanization": "keuda",
+    "meaning": "大きい",
+    "level": 1,
+    "pos": "形容詞"
+  },
+  {
+    "id": 32,
+    "korean": "작다",
+    "romanization": "jakda",
+    "meaning": "小さい",
+    "level": 1,
+    "pos": "形容詞"
+  },
+  {
+    "id": 33,
+    "korean": "많다",
+    "romanization": "manta",
+    "meaning": "多い",
+    "level": 1,
+    "pos": "形容詞"
+  },
+  {
+    "id": 34,
+    "korean": "적다",
+    "romanization": "jeokda",
+    "meaning": "少ない",
+    "level": 1,
+    "pos": "形容詞"
+  },
+  {
+    "id": 35,
+    "korean": "새롭다",
+    "romanization": "saeropda",
+    "meaning": "新しい",
+    "level": 2,
+    "pos": "形容詞"
+  },
+  {
+    "id": 36,
+    "korean": "빠르다",
+    "romanization": "ppareuda",
+    "meaning": "速い",
+    "level": 2,
+    "pos": "形容詞"
+  },
+  {
+    "id": 37,
+    "korean": "느리다",
+    "romanization": "neurida",
+    "meaning": "遅い",
+    "level": 2,
+    "pos": "形容詞"
+  },
+  {
+    "id": 38,
+    "korean": "예쁘다",
+    "romanization": "yeppeuda",
+    "meaning": "きれい、かわいい",
+    "level": 1,
+    "pos": "形容詞"
+  },
+  {
+    "id": 39,
+    "korean": "재미있다",
+    "romanization": "jaemiitda",
+    "meaning": "面白い",
+    "level": 1,
+    "pos": "形容詞"
+  },
+  {
+    "id": 40,
+    "korean": "컴퓨터",
+    "romanization": "keompyuteo",
+    "meaning": "コンピュータ",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 41,
+    "korean": "전화",
+    "romanization": "jeonhwa",
+    "meaning": "電話",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 42,
+    "korean": "영화",
+    "romanization": "yeonghwa",
+    "meaning": "映画",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 43,
+    "korean": "음악",
+    "romanization": "eumak",
+    "meaning": "音楽",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 44,
+    "korean": "운동",
+    "romanization": "undong",
+    "meaning": "運動",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 45,
+    "korean": "여행",
+    "romanization": "yeohaeng",
+    "meaning": "旅行",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 46,
+    "korean": "날씨",
+    "romanization": "nalssi",
+    "meaning": "天気",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 47,
+    "korean": "비",
+    "romanization": "bi",
+    "meaning": "雨",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 48,
+    "korean": "눈",
+    "romanization": "nun",
+    "meaning": "雪、目",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 49,
+    "korean": "바람",
+    "romanization": "baram",
+    "meaning": "風",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 50,
+    "korean": "경제",
+    "romanization": "gyeongje",
+    "meaning": "経済",
+    "level": 3,
+    "pos": "名詞"
+  },
+  {
+    "id": 51,
+    "korean": "정치",
+    "romanization": "jeongchi",
+    "meaning": "政治",
+    "level": 3,
+    "pos": "名詞"
+  },
+  {
+    "id": 52,
+    "korean": "문화",
+    "romanization": "munhwa",
+    "meaning": "文化",
+    "level": 2,
+    "pos": "名詞"
+  },
+  {
+    "id": 53,
+    "korean": "사회",
+    "romanization": "sahoe",
+    "meaning": "社会",
+    "level": 2,
+    "pos": "名詞"
+  },
+  {
+    "id": 54,
+    "korean": "환경",
+    "romanization": "hwangyeong",
+    "meaning": "環境",
+    "level": 2,
+    "pos": "名詞"
+  },
+  {
+    "id": 55,
+    "korean": "건강",
+    "romanization": "geongang",
+    "meaning": "健康",
+    "level": 2,
+    "pos": "名詞"
+  },
+  {
+    "id": 56,
+    "korean": "교육",
+    "romanization": "gyoyuk",
+    "meaning": "教育",
+    "level": 2,
+    "pos": "名詞"
+  },
+  {
+    "id": 57,
+    "korean": "기술",
+    "romanization": "gisul",
+    "meaning": "技術",
+    "level": 2,
+    "pos": "名詞"
+  },
+  {
+    "id": 58,
+    "korean": "연구",
+    "romanization": "yeongu",
+    "meaning": "研究",
+    "level": 3,
+    "pos": "名詞"
+  },
+  {
+    "id": 59,
+    "korean": "결과",
+    "romanization": "gyeolgwa",
+    "meaning": "結果",
+    "level": 2,
+    "pos": "名詞"
+  },
+  {
+    "id": 60,
+    "korean": "생각하다",
+    "romanization": "saenggakhada",
+    "meaning": "考える、思う",
+    "level": 2,
+    "pos": "動詞"
+  },
+  {
+    "id": 61,
+    "korean": "알다",
+    "romanization": "alda",
+    "meaning": "知る、分かる",
+    "level": 1,
+    "pos": "動詞"
+  },
+  {
+    "id": 62,
+    "korean": "모르다",
+    "romanization": "moreuda",
+    "meaning": "知らない、分からない",
+    "level": 1,
+    "pos": "動詞"
+  },
+  {
+    "id": 63,
+    "korean": "배우다",
+    "romanization": "baeuda",
+    "meaning": "学ぶ、習う",
+    "level": 1,
+    "pos": "動詞"
+  },
+  {
+    "id": 64,
+    "korean": "가르치다",
+    "romanization": "gareuchida",
+    "meaning": "教える",
+    "level": 2,
+    "pos": "動詞"
+  },
+  {
+    "id": 65,
+    "korean": "만나다",
+    "romanization": "mannada",
+    "meaning": "会う",
+    "level": 1,
+    "pos": "動詞"
+  },
+  {
+    "id": 66,
+    "korean": "기다리다",
+    "romanization": "gidarida",
+    "meaning": "待つ",
+    "level": 2,
+    "pos": "動詞"
+  },
+  {
+    "id": 67,
+    "korean": "시작하다",
+    "romanization": "sijakhada",
+    "meaning": "始める、始まる",
+    "level": 2,
+    "pos": "動詞"
+  },
+  {
+    "id": 68,
+    "korean": "끝나다",
+    "romanization": "kkeutnada",
+    "meaning": "終わる",
+    "level": 2,
+    "pos": "動詞"
+  },
+  {
+    "id": 69,
+    "korean": "도와주다",
+    "romanization": "dowajuda",
+    "meaning": "助ける、手伝う",
+    "level": 2,
+    "pos": "動詞"
+  },
+  {
+    "id": 70,
+    "korean": "행복하다",
+    "romanization": "haengbokhada",
+    "meaning": "幸せだ",
+    "level": 2,
+    "pos": "形容詞"
+  },
+  {
+    "id": 71,
+    "korean": "슬프다",
+    "romanization": "seulpeuda",
+    "meaning": "悲しい",
+    "level": 2,
+    "pos": "形容詞"
+  },
+  {
+    "id": 72,
+    "korean": "어렵다",
+    "romanization": "eoryeopda",
+    "meaning": "難しい",
+    "level": 2,
+    "pos": "形容詞"
+  },
+  {
+    "id": 73,
+    "korean": "쉽다",
+    "romanization": "swipda",
+    "meaning": "易しい、簡単だ",
+    "level": 2,
+    "pos": "形容詞"
+  },
+  {
+    "id": 74,
+    "korean": "중요하다",
+    "romanization": "jungyohada",
+    "meaning": "重要だ、大切だ",
+    "level": 2,
+    "pos": "形容詞"
+  },
+  {
+    "id": 75,
+    "korean": "필요하다",
+    "romanization": "piryohada",
+    "meaning": "必要だ",
+    "level": 2,
+    "pos": "形容詞"
+  },
+  {
+    "id": 76,
+    "korean": "가능하다",
+    "romanization": "ganeunghada",
+    "meaning": "可能だ",
+    "level": 3,
+    "pos": "形容詞"
+  },
+  {
+    "id": 77,
+    "korean": "불가능하다",
+    "romanization": "bulganeunghada",
+    "meaning": "不可能だ",
+    "level": 3,
+    "pos": "形容詞"
+  },
+  {
+    "id": 78,
+    "korean": "특별하다",
+    "romanization": "teukbyeolhada",
+    "meaning": "特別だ",
+    "level": 2,
+    "pos": "形容詞"
+  },
+  {
+    "id": 79,
+    "korean": "간단하다",
+    "romanization": "gandanhada",
+    "meaning": "簡単だ",
+    "level": 2,
+    "pos": "形容詞"
+  },
+  {
+    "id": 80,
+    "korean": "버스",
+    "romanization": "beoseu",
+    "meaning": "バス",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 81,
+    "korean": "지하철",
+    "romanization": "jihacheol",
+    "meaning": "地下鉄",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 82,
+    "korean": "비행기",
+    "romanization": "bihaenggi",
+    "meaning": "飛行機",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 83,
+    "korean": "병원",
+    "romanization": "byeongwon",
+    "meaning": "病院",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 84,
+    "korean": "은행",
+    "romanization": "eunhaeng",
+    "meaning": "銀行",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 85,
+    "korean": "식당",
+    "romanization": "sikdang",
+    "meaning": "食堂、レストラン",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 86,
+    "korean": "공원",
+    "romanization": "gongwon",
+    "meaning": "公園",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 87,
+    "korean": "도서관",
+    "romanization": "doseogwan",
+    "meaning": "図書館",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 88,
+    "korean": "회사",
+    "romanization": "hoesa",
+    "meaning": "会社",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 89,
+    "korean": "나라",
+    "romanization": "nara",
+    "meaning": "国",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 90,
+    "korean": "한국",
+    "romanization": "hanguk",
+    "meaning": "韓国",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 91,
+    "korean": "중국",
+    "romanization": "jungguk",
+    "meaning": "中国",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 92,
+    "korean": "일본",
+    "romanization": "ilbon",
+    "meaning": "日本",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 93,
+    "korean": "미국",
+    "romanization": "miguk",
+    "meaning": "アメリカ",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 94,
+    "korean": "약속",
+    "romanization": "yaksok",
+    "meaning": "約束、待ち合わせ",
+    "level": 2,
+    "pos": "名詞"
+  },
+  {
+    "id": 95,
+    "korean": "준비하다",
+    "romanization": "junbihada",
+    "meaning": "準備する",
+    "level": 2,
+    "pos": "動詞"
+  },
+  {
+    "id": 96,
+    "korean": "설명하다",
+    "romanization": "seolmyeonghada",
+    "meaning": "説明する",
+    "level": 3,
+    "pos": "動詞"
+  },
+  {
+    "id": 97,
+    "korean": "이해하다",
+    "romanization": "ihaehada",
+    "meaning": "理解する",
+    "level": 2,
+    "pos": "動詞"
+  },
+  {
+    "id": 98,
+    "korean": "노력하다",
+    "romanization": "noryeokhada",
+    "meaning": "努力する",
+    "level": 2,
+    "pos": "動詞"
+  },
+  {
+    "id": 99,
+    "korean": "성공하다",
+    "romanization": "seonggonghada",
+    "meaning": "成功する",
+    "level": 3,
+    "pos": "動詞"
+  },
+  {
+    "id": 100,
+    "korean": "빨간색",
+    "romanization": "ppalgan-saek",
+    "meaning": "赤",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 101,
+    "korean": "파란색",
+    "romanization": "paran-saek",
+    "meaning": "青",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 102,
+    "korean": "노란색",
+    "romanization": "noran-saek",
+    "meaning": "黄色",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 103,
+    "korean": "초록색",
+    "romanization": "chorok-saek",
+    "meaning": "緑",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 104,
+    "korean": "흰색",
+    "romanization": "huinsaek",
+    "meaning": "白",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 105,
+    "korean": "검은색",
+    "romanization": "geomeunsaek",
+    "meaning": "黒",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 106,
+    "korean": "머리",
+    "romanization": "meori",
+    "meaning": "頭、髪",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 107,
+    "korean": "얼굴",
+    "romanization": "eolgul",
+    "meaning": "顔",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 108,
+    "korean": "코",
+    "romanization": "ko",
+    "meaning": "鼻",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 109,
+    "korean": "입",
+    "romanization": "ip",
+    "meaning": "口",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 110,
+    "korean": "귀",
+    "romanization": "gwi",
+    "meaning": "耳",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 111,
+    "korean": "손",
+    "romanization": "son",
+    "meaning": "手",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 112,
+    "korean": "발",
+    "romanization": "bal",
+    "meaning": "足",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 113,
+    "korean": "몸",
+    "romanization": "mom",
+    "meaning": "体",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 114,
+    "korean": "어머니",
+    "romanization": "eomeoni",
+    "meaning": "お母さん",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 115,
+    "korean": "아버지",
+    "romanization": "abeoji",
+    "meaning": "お父さん",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 116,
+    "korean": "형",
+    "romanization": "hyeong",
+    "meaning": "お兄さん（男性から）",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 117,
+    "korean": "오빠",
+    "romanization": "oppa",
+    "meaning": "お兄さん（女性から）",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 118,
+    "korean": "언니",
+    "romanization": "eonni",
+    "meaning": "お姉さん（女性から）",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 119,
+    "korean": "누나",
+    "romanization": "nuna",
+    "meaning": "お姉さん（男性から）",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 120,
+    "korean": "동생",
+    "romanization": "dongsaeng",
+    "meaning": "弟・妹",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 121,
+    "korean": "남편",
+    "romanization": "nampyeon",
+    "meaning": "夫",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 122,
+    "korean": "아내",
+    "romanization": "anae",
+    "meaning": "妻",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 123,
+    "korean": "김치",
+    "romanization": "gimchi",
+    "meaning": "キムチ",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 124,
+    "korean": "불고기",
+    "romanization": "bulgogi",
+    "meaning": "プルコギ",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 125,
+    "korean": "라면",
+    "romanization": "ramyeon",
+    "meaning": "ラーメン",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 126,
+    "korean": "빵",
+    "romanization": "ppang",
+    "meaning": "パン",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 127,
+    "korean": "과일",
+    "romanization": "gwail",
+    "meaning": "果物",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 128,
+    "korean": "사과",
+    "romanization": "sagwa",
+    "meaning": "リンゴ",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 129,
+    "korean": "바나나",
+    "romanization": "banana",
+    "meaning": "バナナ",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 130,
+    "korean": "우유",
+    "romanization": "uyu",
+    "meaning": "牛乳",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 131,
+    "korean": "고기",
+    "romanization": "gogi",
+    "meaning": "肉",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 132,
+    "korean": "채소",
+    "romanization": "chaeso",
+    "meaning": "野菜",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 133,
+    "korean": "아침",
+    "romanization": "achim",
+    "meaning": "朝、朝食",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 134,
+    "korean": "점심",
+    "romanization": "jeomsim",
+    "meaning": "昼、昼食",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 135,
+    "korean": "저녁",
+    "romanization": "jeonyeok",
+    "meaning": "夕方、夕食",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 136,
+    "korean": "밤",
+    "romanization": "bam",
+    "meaning": "夜",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 137,
+    "korean": "주말",
+    "romanization": "jumal",
+    "meaning": "週末",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 138,
+    "korean": "월요일",
+    "romanization": "woryoil",
+    "meaning": "月曜日",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 139,
+    "korean": "금요일",
+    "romanization": "geumyoil",
+    "meaning": "金曜日",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 140,
+    "korean": "올해",
+    "romanization": "olhae",
+    "meaning": "今年",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 141,
+    "korean": "옷",
+    "romanization": "ot",
+    "meaning": "服",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 142,
+    "korean": "신발",
+    "romanization": "sinbal",
+    "meaning": "靴",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 143,
+    "korean": "모자",
+    "romanization": "moja",
+    "meaning": "帽子",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 144,
+    "korean": "가방",
+    "romanization": "gabang",
+    "meaning": "カバン",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 145,
+    "korean": "지갑",
+    "romanization": "jigap",
+    "meaning": "財布",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 146,
+    "korean": "휴대폰",
+    "romanization": "hyudaepon",
+    "meaning": "携帯電話",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 147,
+    "korean": "자다",
+    "romanization": "jada",
+    "meaning": "寝る",
+    "level": 1,
+    "pos": "動詞"
+  },
+  {
+    "id": 148,
+    "korean": "일어나다",
+    "romanization": "ireonada",
+    "meaning": "起きる",
+    "level": 1,
+    "pos": "動詞"
+  },
+  {
+    "id": 149,
+    "korean": "앉다",
+    "romanization": "anda",
+    "meaning": "座る",
+    "level": 1,
+    "pos": "動詞"
+  },
+  {
+    "id": 150,
+    "korean": "서다",
+    "romanization": "seoda",
+    "meaning": "立つ",
+    "level": 1,
+    "pos": "動詞"
+  },
+  {
+    "id": 151,
+    "korean": "사다",
+    "romanization": "sada",
+    "meaning": "買う",
+    "level": 1,
+    "pos": "動詞"
+  },
+  {
+    "id": 152,
+    "korean": "팔다",
+    "romanization": "palda",
+    "meaning": "売る",
+    "level": 1,
+    "pos": "動詞"
+  },
+  {
+    "id": 153,
+    "korean": "주다",
+    "romanization": "juda",
+    "meaning": "あげる、くれる",
+    "level": 1,
+    "pos": "動詞"
+  },
+  {
+    "id": 154,
+    "korean": "받다",
+    "romanization": "batda",
+    "meaning": "もらう、受け取る",
+    "level": 1,
+    "pos": "動詞"
+  },
+  {
+    "id": 155,
+    "korean": "열다",
+    "romanization": "yeolda",
+    "meaning": "開ける",
+    "level": 1,
+    "pos": "動詞"
+  },
+  {
+    "id": 156,
+    "korean": "닫다",
+    "romanization": "datda",
+    "meaning": "閉める",
+    "level": 1,
+    "pos": "動詞"
+  },
+  {
+    "id": 157,
+    "korean": "찾다",
+    "romanization": "chatda",
+    "meaning": "探す、見つける",
+    "level": 1,
+    "pos": "動詞"
+  },
+  {
+    "id": 158,
+    "korean": "만들다",
+    "romanization": "mandeulda",
+    "meaning": "作る",
+    "level": 1,
+    "pos": "動詞"
+  },
+  {
+    "id": 159,
+    "korean": "부르다",
+    "romanization": "bureuda",
+    "meaning": "呼ぶ、歌う",
+    "level": 1,
+    "pos": "動詞"
+  },
+  {
+    "id": 160,
+    "korean": "배고프다",
+    "romanization": "baegopuda",
+    "meaning": "お腹が空いた",
+    "level": 1,
+    "pos": "形容詞"
+  },
+  {
+    "id": 161,
+    "korean": "목마르다",
+    "romanization": "mongmareuda",
+    "meaning": "喉が渇いた",
+    "level": 1,
+    "pos": "形容詞"
+  },
+  {
+    "id": 162,
+    "korean": "피곤하다",
+    "romanization": "pigonhada",
+    "meaning": "疲れた",
+    "level": 1,
+    "pos": "形容詞"
+  },
+  {
+    "id": 163,
+    "korean": "바쁘다",
+    "romanization": "bappeuda",
+    "meaning": "忙しい",
+    "level": 1,
+    "pos": "形容詞"
+  },
+  {
+    "id": 164,
+    "korean": "아프다",
+    "romanization": "apeuda",
+    "meaning": "痛い、具合が悪い",
+    "level": 1,
+    "pos": "形容詞"
+  },
+  {
+    "id": 165,
+    "korean": "괜찮다",
+    "romanization": "gwaenchanta",
+    "meaning": "大丈夫だ",
+    "level": 1,
+    "pos": "形容詞"
+  },
+  {
+    "id": 166,
+    "korean": "미안합니다",
+    "romanization": "mianhamnida",
+    "meaning": "すみません、ごめんなさい",
+    "level": 1,
+    "pos": "感嘆詞"
+  },
+  {
+    "id": 167,
+    "korean": "잠깐만요",
+    "romanization": "jamkkanmanyo",
+    "meaning": "少々お待ちください",
+    "level": 1,
+    "pos": "感嘆詞"
+  },
+  {
+    "id": 168,
+    "korean": "어디",
+    "romanization": "eodi",
+    "meaning": "どこ",
+    "level": 1,
+    "pos": "代名詞"
+  },
+  {
+    "id": 169,
+    "korean": "언제",
+    "romanization": "eonje",
+    "meaning": "いつ",
+    "level": 1,
+    "pos": "代名詞"
+  },
+  {
+    "id": 170,
+    "korean": "왜",
+    "romanization": "wae",
+    "meaning": "なぜ",
+    "level": 1,
+    "pos": "副詞"
+  },
+  {
+    "id": 171,
+    "korean": "어떻게",
+    "romanization": "eotteoke",
+    "meaning": "どのように、どうやって",
+    "level": 1,
+    "pos": "副詞"
+  },
+  {
+    "id": 172,
+    "korean": "얼마",
+    "romanization": "eolma",
+    "meaning": "いくら",
+    "level": 1,
+    "pos": "代名詞"
+  },
+  {
+    "id": 173,
+    "korean": "정말",
+    "romanization": "jeongmal",
+    "meaning": "本当に",
+    "level": 1,
+    "pos": "副詞"
+  },
+  {
+    "id": 174,
+    "korean": "매우",
+    "romanization": "maeu",
+    "meaning": "とても、非常に",
+    "level": 1,
+    "pos": "副詞"
+  },
+  {
+    "id": 175,
+    "korean": "조금",
+    "romanization": "jogeom",
+    "meaning": "少し",
+    "level": 1,
+    "pos": "副詞"
+  },
+  {
+    "id": 176,
+    "korean": "같이",
+    "romanization": "gachi",
+    "meaning": "一緒に",
+    "level": 1,
+    "pos": "副詞"
+  },
+  {
+    "id": 177,
+    "korean": "다시",
+    "romanization": "dasi",
+    "meaning": "また、もう一度",
+    "level": 1,
+    "pos": "副詞"
+  },
+  {
+    "id": 178,
+    "korean": "시장",
+    "romanization": "sijang",
+    "meaning": "市場",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 179,
+    "korean": "마트",
+    "romanization": "mateu",
+    "meaning": "スーパー",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 180,
+    "korean": "편의점",
+    "romanization": "pyeonuijeom",
+    "meaning": "コンビニ",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 181,
+    "korean": "카페",
+    "romanization": "kape",
+    "meaning": "カフェ",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 182,
+    "korean": "역",
+    "romanization": "yeok",
+    "meaning": "駅",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 183,
+    "korean": "공항",
+    "romanization": "gonghang",
+    "meaning": "空港",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 184,
+    "korean": "호텔",
+    "romanization": "hotel",
+    "meaning": "ホテル",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 185,
+    "korean": "화장실",
+    "romanization": "hwajangsil",
+    "meaning": "トイレ",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 186,
+    "korean": "화가 나다",
+    "romanization": "hwaga nada",
+    "meaning": "怒る",
+    "level": 2,
+    "pos": "動詞"
+  },
+  {
+    "id": 187,
+    "korean": "걱정하다",
+    "romanization": "geokjeonghada",
+    "meaning": "心配する",
+    "level": 2,
+    "pos": "動詞"
+  },
+  {
+    "id": 188,
+    "korean": "기대하다",
+    "romanization": "gidaehada",
+    "meaning": "期待する",
+    "level": 2,
+    "pos": "動詞"
+  },
+  {
+    "id": 189,
+    "korean": "실망하다",
+    "romanization": "silmanghada",
+    "meaning": "失望する",
+    "level": 2,
+    "pos": "動詞"
+  },
+  {
+    "id": 190,
+    "korean": "놀라다",
+    "romanization": "nollada",
+    "meaning": "驚く",
+    "level": 2,
+    "pos": "動詞"
+  },
+  {
+    "id": 191,
+    "korean": "기쁘다",
+    "romanization": "gippeuda",
+    "meaning": "うれしい",
+    "level": 2,
+    "pos": "形容詞"
+  },
+  {
+    "id": 192,
+    "korean": "외롭다",
+    "romanization": "oeropda",
+    "meaning": "寂しい",
+    "level": 2,
+    "pos": "形容詞"
+  },
+  {
+    "id": 193,
+    "korean": "무섭다",
+    "romanization": "museopda",
+    "meaning": "怖い",
+    "level": 2,
+    "pos": "形容詞"
+  },
+  {
+    "id": 194,
+    "korean": "부끄럽다",
+    "romanization": "bukkeureopda",
+    "meaning": "恥ずかしい",
+    "level": 2,
+    "pos": "形容詞"
+  },
+  {
+    "id": 195,
+    "korean": "선택하다",
+    "romanization": "seontaekada",
+    "meaning": "選択する",
+    "level": 2,
+    "pos": "動詞"
+  },
+  {
+    "id": 196,
+    "korean": "결정하다",
+    "romanization": "gyeoljeonghada",
+    "meaning": "決定する",
+    "level": 2,
+    "pos": "動詞"
+  },
+  {
+    "id": 197,
+    "korean": "계획하다",
+    "romanization": "gyehoekada",
+    "meaning": "計画する",
+    "level": 2,
+    "pos": "動詞"
+  },
+  {
+    "id": 198,
+    "korean": "참가하다",
+    "romanization": "chamgahada",
+    "meaning": "参加する",
+    "level": 2,
+    "pos": "動詞"
+  },
+  {
+    "id": 199,
+    "korean": "사용하다",
+    "romanization": "sayonghada",
+    "meaning": "使用する",
+    "level": 2,
+    "pos": "動詞"
+  },
+  {
+    "id": 200,
+    "korean": "연락하다",
+    "romanization": "yeonrakhada",
+    "meaning": "連絡する",
+    "level": 2,
+    "pos": "動詞"
+  },
+  {
+    "id": 201,
+    "korean": "소개하다",
+    "romanization": "sogaehada",
+    "meaning": "紹介する",
+    "level": 2,
+    "pos": "動詞"
+  },
+  {
+    "id": 202,
+    "korean": "비교하다",
+    "romanization": "bigyohada",
+    "meaning": "比較する",
+    "level": 2,
+    "pos": "動詞"
+  },
+  {
+    "id": 203,
+    "korean": "확인하다",
+    "romanization": "hwaginhada",
+    "meaning": "確認する",
+    "level": 2,
+    "pos": "動詞"
+  },
+  {
+    "id": 204,
+    "korean": "해결하다",
+    "romanization": "haegyeolhada",
+    "meaning": "解決する",
+    "level": 2,
+    "pos": "動詞"
+  },
+  {
+    "id": 205,
+    "korean": "포함하다",
+    "romanization": "pohamhada",
+    "meaning": "含む",
+    "level": 2,
+    "pos": "動詞"
+  },
+  {
+    "id": 206,
+    "korean": "변하다",
+    "romanization": "byeonhada",
+    "meaning": "変わる",
+    "level": 2,
+    "pos": "動詞"
+  },
+  {
+    "id": 207,
+    "korean": "이루다",
+    "romanization": "iruda",
+    "meaning": "成し遂げる",
+    "level": 2,
+    "pos": "動詞"
+  },
+  {
+    "id": 208,
+    "korean": "지키다",
+    "romanization": "jikida",
+    "meaning": "守る",
+    "level": 2,
+    "pos": "動詞"
+  },
+  {
+    "id": 209,
+    "korean": "나타나다",
+    "romanization": "natanada",
+    "meaning": "現れる",
+    "level": 2,
+    "pos": "動詞"
+  },
+  {
+    "id": 210,
+    "korean": "경험",
+    "romanization": "gyeongheom",
+    "meaning": "経験",
+    "level": 2,
+    "pos": "名詞"
+  },
+  {
+    "id": 211,
+    "korean": "관계",
+    "romanization": "gwangye",
+    "meaning": "関係",
+    "level": 2,
+    "pos": "名詞"
+  },
+  {
+    "id": 212,
+    "korean": "목적",
+    "romanization": "mokjeok",
+    "meaning": "目的",
+    "level": 2,
+    "pos": "名詞"
+  },
+  {
+    "id": 213,
+    "korean": "방법",
+    "romanization": "bangbeop",
+    "meaning": "方法",
+    "level": 2,
+    "pos": "名詞"
+  },
+  {
+    "id": 214,
+    "korean": "문제",
+    "romanization": "munje",
+    "meaning": "問題",
+    "level": 2,
+    "pos": "名詞"
+  },
+  {
+    "id": 215,
+    "korean": "상황",
+    "romanization": "sanghwang",
+    "meaning": "状況",
+    "level": 2,
+    "pos": "名詞"
+  },
+  {
+    "id": 216,
+    "korean": "의미",
+    "romanization": "uimi",
+    "meaning": "意味",
+    "level": 2,
+    "pos": "名詞"
+  },
+  {
+    "id": 217,
+    "korean": "과정",
+    "romanization": "gwajeong",
+    "meaning": "過程",
+    "level": 2,
+    "pos": "名詞"
+  },
+  {
+    "id": 218,
+    "korean": "능력",
+    "romanization": "neungnyeok",
+    "meaning": "能力",
+    "level": 2,
+    "pos": "名詞"
+  },
+  {
+    "id": 219,
+    "korean": "태도",
+    "romanization": "taedo",
+    "meaning": "態度",
+    "level": 2,
+    "pos": "名詞"
+  },
+  {
+    "id": 220,
+    "korean": "성격",
+    "romanization": "seonggyeok",
+    "meaning": "性格",
+    "level": 2,
+    "pos": "名詞"
+  },
+  {
+    "id": 221,
+    "korean": "생활",
+    "romanization": "saenghwal",
+    "meaning": "生活",
+    "level": 2,
+    "pos": "名詞"
+  },
+  {
+    "id": 222,
+    "korean": "입장",
+    "romanization": "ipjang",
+    "meaning": "立場",
+    "level": 2,
+    "pos": "名詞"
+  },
+  {
+    "id": 223,
+    "korean": "기회",
+    "romanization": "gihoe",
+    "meaning": "機会",
+    "level": 2,
+    "pos": "名詞"
+  },
+  {
+    "id": 224,
+    "korean": "인터넷",
+    "romanization": "inteonet",
+    "meaning": "インターネット",
+    "level": 2,
+    "pos": "名詞"
+  },
+  {
+    "id": 225,
+    "korean": "정보",
+    "romanization": "jeongbo",
+    "meaning": "情報",
+    "level": 2,
+    "pos": "名詞"
+  },
+  {
+    "id": 226,
+    "korean": "내용",
+    "romanization": "naeyong",
+    "meaning": "内容",
+    "level": 2,
+    "pos": "名詞"
+  },
+  {
+    "id": 227,
+    "korean": "자료",
+    "romanization": "jaryo",
+    "meaning": "資料",
+    "level": 2,
+    "pos": "名詞"
+  },
+  {
+    "id": 228,
+    "korean": "그러나",
+    "romanization": "geureona",
+    "meaning": "しかし",
+    "level": 2,
+    "pos": "接続詞"
+  },
+  {
+    "id": 229,
+    "korean": "따라서",
+    "romanization": "ttaraseo",
+    "meaning": "したがって",
+    "level": 2,
+    "pos": "接続詞"
+  },
+  {
+    "id": 230,
+    "korean": "또한",
+    "romanization": "ttohan",
+    "meaning": "また、さらに",
+    "level": 2,
+    "pos": "副詞"
+  },
+  {
+    "id": 231,
+    "korean": "특히",
+    "romanization": "teuki",
+    "meaning": "特に",
+    "level": 2,
+    "pos": "副詞"
+  },
+  {
+    "id": 232,
+    "korean": "이미",
+    "romanization": "imi",
+    "meaning": "すでに",
+    "level": 2,
+    "pos": "副詞"
+  },
+  {
+    "id": 233,
+    "korean": "아직",
+    "romanization": "ajik",
+    "meaning": "まだ",
+    "level": 2,
+    "pos": "副詞"
+  },
+  {
+    "id": 234,
+    "korean": "갑자기",
+    "romanization": "gapjagi",
+    "meaning": "突然",
+    "level": 2,
+    "pos": "副詞"
+  },
+  {
+    "id": 235,
+    "korean": "결국",
+    "romanization": "gyeolguk",
+    "meaning": "結局",
+    "level": 2,
+    "pos": "副詞"
+  },
+  {
+    "id": 236,
+    "korean": "분석하다",
+    "romanization": "bunseokada",
+    "meaning": "分析する",
+    "level": 3,
+    "pos": "動詞"
+  },
+  {
+    "id": 237,
+    "korean": "평가하다",
+    "romanization": "pyeonggahada",
+    "meaning": "評価する",
+    "level": 3,
+    "pos": "動詞"
+  },
+  {
+    "id": 238,
+    "korean": "논의하다",
+    "romanization": "nonuihada",
+    "meaning": "論議する",
+    "level": 3,
+    "pos": "動詞"
+  },
+  {
+    "id": 239,
+    "korean": "조사하다",
+    "romanization": "josahada",
+    "meaning": "調査する",
+    "level": 3,
+    "pos": "動詞"
+  },
+  {
+    "id": 240,
+    "korean": "발전하다",
+    "romanization": "baljeonhada",
+    "meaning": "発展する",
+    "level": 3,
+    "pos": "動詞"
+  },
+  {
+    "id": 241,
+    "korean": "개선하다",
+    "romanization": "gaeseonhada",
+    "meaning": "改善する",
+    "level": 3,
+    "pos": "動詞"
+  },
+  {
+    "id": 242,
+    "korean": "실현하다",
+    "romanization": "silhyeonhada",
+    "meaning": "実現する",
+    "level": 3,
+    "pos": "動詞"
+  },
+  {
+    "id": 243,
+    "korean": "극복하다",
+    "romanization": "geukbokhada",
+    "meaning": "克服する",
+    "level": 3,
+    "pos": "動詞"
+  },
+  {
+    "id": 244,
+    "korean": "추진하다",
+    "romanization": "chujinhada",
+    "meaning": "推進する",
+    "level": 3,
+    "pos": "動詞"
+  },
+  {
+    "id": 245,
+    "korean": "제시하다",
+    "romanization": "jesihada",
+    "meaning": "提示する",
+    "level": 3,
+    "pos": "動詞"
+  },
+  {
+    "id": 246,
+    "korean": "가치",
+    "romanization": "gachi",
+    "meaning": "価値",
+    "level": 3,
+    "pos": "名詞"
+  },
+  {
+    "id": 247,
+    "korean": "원칙",
+    "romanization": "wonchik",
+    "meaning": "原則",
+    "level": 3,
+    "pos": "名詞"
+  },
+  {
+    "id": 248,
+    "korean": "제도",
+    "romanization": "jedo",
+    "meaning": "制度",
+    "level": 3,
+    "pos": "名詞"
+  },
+  {
+    "id": 249,
+    "korean": "현상",
+    "romanization": "hyeonsang",
+    "meaning": "現象",
+    "level": 3,
+    "pos": "名詞"
+  },
+  {
+    "id": 250,
+    "korean": "개념",
+    "romanization": "gaenyeom",
+    "meaning": "概念",
+    "level": 3,
+    "pos": "名詞"
+  },
+  {
+    "id": 251,
+    "korean": "요인",
+    "romanization": "yoin",
+    "meaning": "要因",
+    "level": 3,
+    "pos": "名詞"
+  },
+  {
+    "id": 252,
+    "korean": "측면",
+    "romanization": "cheungmyeon",
+    "meaning": "側面",
+    "level": 3,
+    "pos": "名詞"
+  },
+  {
+    "id": 253,
+    "korean": "영향",
+    "romanization": "yeonghyang",
+    "meaning": "影響",
+    "level": 3,
+    "pos": "名詞"
+  },
+  {
+    "id": 254,
+    "korean": "전망",
+    "romanization": "jeonmang",
+    "meaning": "展望",
+    "level": 3,
+    "pos": "名詞"
+  },
+  {
+    "id": 255,
+    "korean": "과제",
+    "romanization": "gwaje",
+    "meaning": "課題",
+    "level": 3,
+    "pos": "名詞"
+  },
+  {
+    "id": 256,
+    "korean": "역할",
+    "romanization": "yeokal",
+    "meaning": "役割",
+    "level": 3,
+    "pos": "名詞"
+  },
+  {
+    "id": 257,
+    "korean": "의식",
+    "romanization": "uisik",
+    "meaning": "意識",
+    "level": 3,
+    "pos": "名詞"
+  },
+  {
+    "id": 258,
+    "korean": "효과",
+    "romanization": "hyogwa",
+    "meaning": "効果",
+    "level": 3,
+    "pos": "名詞"
+  },
+  {
+    "id": 259,
+    "korean": "대화",
+    "romanization": "daehwa",
+    "meaning": "対話、会話",
+    "level": 2,
+    "pos": "名詞"
+  },
+  {
+    "id": 260,
+    "korean": "주제",
+    "romanization": "juje",
+    "meaning": "テーマ、主題",
+    "level": 2,
+    "pos": "名詞"
+  },
+  {
+    "id": 261,
+    "korean": "위",
+    "romanization": "wi",
+    "meaning": "上",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 262,
+    "korean": "아래",
+    "romanization": "arae",
+    "meaning": "下",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 263,
+    "korean": "앞",
+    "romanization": "ap",
+    "meaning": "前",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 264,
+    "korean": "뒤",
+    "romanization": "dwi",
+    "meaning": "後ろ",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 265,
+    "korean": "오른쪽",
+    "romanization": "oreunjjok",
+    "meaning": "右",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 266,
+    "korean": "왼쪽",
+    "romanization": "oenjjok",
+    "meaning": "左",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 267,
+    "korean": "안",
+    "romanization": "an",
+    "meaning": "中、内",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 268,
+    "korean": "밖",
+    "romanization": "bak",
+    "meaning": "外",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 269,
+    "korean": "옆",
+    "romanization": "yeop",
+    "meaning": "横、隣",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 270,
+    "korean": "사이",
+    "romanization": "sai",
+    "meaning": "間",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 271,
+    "korean": "산",
+    "romanization": "san",
+    "meaning": "山",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 272,
+    "korean": "바다",
+    "romanization": "bada",
+    "meaning": "海",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 273,
+    "korean": "강",
+    "romanization": "gang",
+    "meaning": "川",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 274,
+    "korean": "호수",
+    "romanization": "hosu",
+    "meaning": "湖",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 275,
+    "korean": "나무",
+    "romanization": "namu",
+    "meaning": "木",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 276,
+    "korean": "꽃",
+    "romanization": "kkot",
+    "meaning": "花",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 277,
+    "korean": "풀",
+    "romanization": "pul",
+    "meaning": "草",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 278,
+    "korean": "하늘",
+    "romanization": "haneul",
+    "meaning": "空",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 279,
+    "korean": "땅",
+    "romanization": "ttang",
+    "meaning": "地面、土地",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 280,
+    "korean": "구름",
+    "romanization": "gureum",
+    "meaning": "雲",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 281,
+    "korean": "태양",
+    "romanization": "taeyang",
+    "meaning": "太陽",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 282,
+    "korean": "달",
+    "romanization": "dal",
+    "meaning": "月",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 283,
+    "korean": "별",
+    "romanization": "byeol",
+    "meaning": "星",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 284,
+    "korean": "봄",
+    "romanization": "bom",
+    "meaning": "春",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 285,
+    "korean": "여름",
+    "romanization": "yeoreum",
+    "meaning": "夏",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 286,
+    "korean": "가을",
+    "romanization": "gaeul",
+    "meaning": "秋",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 287,
+    "korean": "겨울",
+    "romanization": "gyeoul",
+    "meaning": "冬",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 288,
+    "korean": "방",
+    "romanization": "bang",
+    "meaning": "部屋",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 289,
+    "korean": "문",
+    "romanization": "mun",
+    "meaning": "ドア",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 290,
+    "korean": "창문",
+    "romanization": "changmun",
+    "meaning": "窓",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 291,
+    "korean": "의자",
+    "romanization": "uija",
+    "meaning": "椅子",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 292,
+    "korean": "책상",
+    "romanization": "chaeksang",
+    "meaning": "机",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 293,
+    "korean": "침대",
+    "romanization": "chimdae",
+    "meaning": "ベッド",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 294,
+    "korean": "냉장고",
+    "romanization": "naengjanggo",
+    "meaning": "冷蔵庫",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 295,
+    "korean": "텔레비전",
+    "romanization": "tellebijeon",
+    "meaning": "テレビ",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 296,
+    "korean": "부엌",
+    "romanization": "bueok",
+    "meaning": "台所",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 297,
+    "korean": "높다",
+    "romanization": "nopda",
+    "meaning": "高い",
+    "level": 1,
+    "pos": "形容詞"
+  },
+  {
+    "id": 298,
+    "korean": "낮다",
+    "romanization": "natda",
+    "meaning": "低い",
+    "level": 1,
+    "pos": "形容詞"
+  },
+  {
+    "id": 299,
+    "korean": "길다",
+    "romanization": "gilda",
+    "meaning": "長い",
+    "level": 1,
+    "pos": "形容詞"
+  },
+  {
+    "id": 300,
+    "korean": "짧다",
+    "romanization": "jjalda",
+    "meaning": "短い",
+    "level": 1,
+    "pos": "形容詞"
+  },
+  {
+    "id": 301,
+    "korean": "무겁다",
+    "romanization": "mugeopda",
+    "meaning": "重い",
+    "level": 1,
+    "pos": "形容詞"
+  },
+  {
+    "id": 302,
+    "korean": "가볍다",
+    "romanization": "gabyeopda",
+    "meaning": "軽い",
+    "level": 1,
+    "pos": "形容詞"
+  },
+  {
+    "id": 303,
+    "korean": "뜨겁다",
+    "romanization": "tteugeobda",
+    "meaning": "熱い",
+    "level": 1,
+    "pos": "形容詞"
+  },
+  {
+    "id": 304,
+    "korean": "차갑다",
+    "romanization": "chagapda",
+    "meaning": "冷たい",
+    "level": 1,
+    "pos": "形容詞"
+  },
+  {
+    "id": 305,
+    "korean": "달다",
+    "romanization": "dalda",
+    "meaning": "甘い",
+    "level": 1,
+    "pos": "形容詞"
+  },
+  {
+    "id": 306,
+    "korean": "쓰다",
+    "romanization": "sseuda",
+    "meaning": "苦い",
+    "level": 1,
+    "pos": "形容詞"
+  },
+  {
+    "id": 307,
+    "korean": "맵다",
+    "romanization": "maepda",
+    "meaning": "辛い",
+    "level": 1,
+    "pos": "形容詞"
+  },
+  {
+    "id": 308,
+    "korean": "싸다",
+    "romanization": "ssada",
+    "meaning": "安い",
+    "level": 1,
+    "pos": "形容詞"
+  },
+  {
+    "id": 309,
+    "korean": "비싸다",
+    "romanization": "bissada",
+    "meaning": "高い（値段）",
+    "level": 1,
+    "pos": "形容詞"
+  },
+  {
+    "id": 310,
+    "korean": "깨끗하다",
+    "romanization": "kkaekkeuthada",
+    "meaning": "きれいだ、清潔だ",
+    "level": 1,
+    "pos": "形容詞"
+  },
+  {
+    "id": 311,
+    "korean": "더럽다",
+    "romanization": "deoropda",
+    "meaning": "汚い",
+    "level": 1,
+    "pos": "形容詞"
+  },
+  {
+    "id": 312,
+    "korean": "조용하다",
+    "romanization": "joyonghada",
+    "meaning": "静かだ",
+    "level": 1,
+    "pos": "形容詞"
+  },
+  {
+    "id": 313,
+    "korean": "시끄럽다",
+    "romanization": "sikkeureopda",
+    "meaning": "うるさい",
+    "level": 1,
+    "pos": "形容詞"
+  },
+  {
+    "id": 314,
+    "korean": "씻다",
+    "romanization": "ssitda",
+    "meaning": "洗う",
+    "level": 1,
+    "pos": "動詞"
+  },
+  {
+    "id": 315,
+    "korean": "청소하다",
+    "romanization": "cheongsohada",
+    "meaning": "掃除する",
+    "level": 1,
+    "pos": "動詞"
+  },
+  {
+    "id": 316,
+    "korean": "요리하다",
+    "romanization": "yorihada",
+    "meaning": "料理する",
+    "level": 1,
+    "pos": "動詞"
+  },
+  {
+    "id": 317,
+    "korean": "운전하다",
+    "romanization": "unjeonhada",
+    "meaning": "運転する",
+    "level": 1,
+    "pos": "動詞"
+  },
+  {
+    "id": 318,
+    "korean": "수영하다",
+    "romanization": "suyeonghada",
+    "meaning": "泳ぐ",
+    "level": 1,
+    "pos": "動詞"
+  },
+  {
+    "id": 319,
+    "korean": "달리다",
+    "romanization": "dallida",
+    "meaning": "走る",
+    "level": 1,
+    "pos": "動詞"
+  },
+  {
+    "id": 320,
+    "korean": "걷다",
+    "romanization": "geotda",
+    "meaning": "歩く",
+    "level": 1,
+    "pos": "動詞"
+  },
+  {
+    "id": 321,
+    "korean": "타다",
+    "romanization": "tada",
+    "meaning": "乗る",
+    "level": 1,
+    "pos": "動詞"
+  },
+  {
+    "id": 322,
+    "korean": "내리다",
+    "romanization": "naerida",
+    "meaning": "降りる",
+    "level": 1,
+    "pos": "動詞"
+  },
+  {
+    "id": 323,
+    "korean": "쉬다",
+    "romanization": "swida",
+    "meaning": "休む",
+    "level": 1,
+    "pos": "動詞"
+  },
+  {
+    "id": 324,
+    "korean": "놀다",
+    "romanization": "nolda",
+    "meaning": "遊ぶ",
+    "level": 1,
+    "pos": "動詞"
+  },
+  {
+    "id": 325,
+    "korean": "노래하다",
+    "romanization": "noraehada",
+    "meaning": "歌う",
+    "level": 1,
+    "pos": "動詞"
+  },
+  {
+    "id": 326,
+    "korean": "춤추다",
+    "romanization": "chumchuda",
+    "meaning": "踊る",
+    "level": 1,
+    "pos": "動詞"
+  },
+  {
+    "id": 327,
+    "korean": "그리다",
+    "romanization": "geurida",
+    "meaning": "描く",
+    "level": 1,
+    "pos": "動詞"
+  },
+  {
+    "id": 328,
+    "korean": "찍다",
+    "romanization": "jjikda",
+    "meaning": "撮る",
+    "level": 1,
+    "pos": "動詞"
+  },
+  {
+    "id": 329,
+    "korean": "된장",
+    "romanization": "doenjang",
+    "meaning": "味噌",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 330,
+    "korean": "국",
+    "romanization": "guk",
+    "meaning": "スープ",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 331,
+    "korean": "찌개",
+    "romanization": "jjigae",
+    "meaning": "チゲ",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 332,
+    "korean": "갈비",
+    "romanization": "galbi",
+    "meaning": "カルビ",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 333,
+    "korean": "삼겹살",
+    "romanization": "samgyeopsal",
+    "meaning": "サムギョプサル",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 334,
+    "korean": "떡볶이",
+    "romanization": "tteokbokki",
+    "meaning": "トッポッキ",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 335,
+    "korean": "냉면",
+    "romanization": "naengmyeon",
+    "meaning": "冷麺",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 336,
+    "korean": "비빔밥",
+    "romanization": "bibimbap",
+    "meaning": "ビビンバ",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 337,
+    "korean": "삼계탕",
+    "romanization": "samgyetang",
+    "meaning": "参鶏湯",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 338,
+    "korean": "김밥",
+    "romanization": "gimbap",
+    "meaning": "キンパ",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 339,
+    "korean": "개",
+    "romanization": "gae",
+    "meaning": "犬",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 340,
+    "korean": "고양이",
+    "romanization": "goyangi",
+    "meaning": "猫",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 341,
+    "korean": "새",
+    "romanization": "sae",
+    "meaning": "鳥",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 342,
+    "korean": "물고기",
+    "romanization": "mulgogi",
+    "meaning": "魚",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 343,
+    "korean": "토끼",
+    "romanization": "tokki",
+    "meaning": "ウサギ",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 344,
+    "korean": "곰",
+    "romanization": "gom",
+    "meaning": "クマ",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 345,
+    "korean": "호랑이",
+    "romanization": "horangi",
+    "meaning": "トラ",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 346,
+    "korean": "원숭이",
+    "romanization": "wonsongi",
+    "meaning": "サル",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 347,
+    "korean": "지금",
+    "romanization": "jigeum",
+    "meaning": "今",
+    "level": 1,
+    "pos": "副詞"
+  },
+  {
+    "id": 348,
+    "korean": "나중에",
+    "romanization": "najunge",
+    "meaning": "後で",
+    "level": 1,
+    "pos": "副詞"
+  },
+  {
+    "id": 349,
+    "korean": "먼저",
+    "romanization": "meonjeo",
+    "meaning": "先に、まず",
+    "level": 1,
+    "pos": "副詞"
+  },
+  {
+    "id": 350,
+    "korean": "항상",
+    "romanization": "hangsang",
+    "meaning": "いつも",
+    "level": 1,
+    "pos": "副詞"
+  },
+  {
+    "id": 351,
+    "korean": "자주",
+    "romanization": "jaju",
+    "meaning": "よく、頻繁に",
+    "level": 1,
+    "pos": "副詞"
+  },
+  {
+    "id": 352,
+    "korean": "가끔",
+    "romanization": "gakkeum",
+    "meaning": "たまに",
+    "level": 1,
+    "pos": "副詞"
+  },
+  {
+    "id": 353,
+    "korean": "보통",
+    "romanization": "botong",
+    "meaning": "普通、たいてい",
+    "level": 1,
+    "pos": "副詞"
+  },
+  {
+    "id": 354,
+    "korean": "번호",
+    "romanization": "beonho",
+    "meaning": "番号",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 355,
+    "korean": "주소",
+    "romanization": "juso",
+    "meaning": "住所",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 356,
+    "korean": "나이",
+    "romanization": "nai",
+    "meaning": "年齢",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 357,
+    "korean": "이름",
+    "romanization": "ireum",
+    "meaning": "名前",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 358,
+    "korean": "직업",
+    "romanization": "jigeop",
+    "meaning": "職業",
+    "level": 1,
+    "pos": "名詞"
+  },
+  {
+    "id": 359,
+    "korean": "잊다",
+    "romanization": "itda",
+    "meaning": "忘れる",
+    "level": 1,
+    "pos": "動詞"
+  },
+  {
+    "id": 360,
+    "korean": "기억하다",
+    "romanization": "gieokada",
+    "meaning": "覚えている、記憶する",
+    "level": 1,
+    "pos": "動詞"
+  },
+  {
+    "id": 361,
+    "korean": "믿다",
+    "romanization": "mitda",
+    "meaning": "信じる",
+    "level": 1,
+    "pos": "動詞"
+  },
+  {
+    "id": 362,
+    "korean": "원하다",
+    "romanization": "wonhada",
+    "meaning": "望む、欲しい",
+    "level": 1,
+    "pos": "動詞"
+  },
+  {
+    "id": 363,
+    "korean": "바라다",
+    "romanization": "barada",
+    "meaning": "願う、望む",
+    "level": 1,
+    "pos": "動詞"
+  },
+  {
+    "id": 364,
+    "korean": "느끼다",
+    "romanization": "neukkida",
+    "meaning": "感じる",
+    "level": 1,
+    "pos": "動詞"
+  },
+  {
+    "id": 365,
+    "korean": "보내다",
+    "romanization": "bonaeda",
+    "meaning": "送る、過ごす",
+    "level": 1,
+    "pos": "動詞"
+  },
+  {
+    "id": 366,
+    "korean": "포기하다",
+    "romanization": "pogihada",
+    "meaning": "諦める",
+    "level": 2,
+    "pos": "動詞"
+  },
+  {
+    "id": 367,
+    "korean": "도전하다",
+    "romanization": "dojeonhada",
+    "meaning": "挑戦する",
+    "level": 2,
+    "pos": "動詞"
+  },
+  {
+    "id": 368,
+    "korean": "집중하다",
+    "romanization": "jipjunghada",
+    "meaning": "集中する",
+    "level": 2,
+    "pos": "動詞"
+  },
+  {
+    "id": 369,
+    "korean": "반복하다",
+    "romanization": "banbokada",
+    "meaning": "繰り返す",
+    "level": 2,
+    "pos": "動詞"
+  },
+  {
+    "id": 370,
+    "korean": "강조하다",
+    "romanization": "gangjohada",
+    "meaning": "強調する",
+    "level": 2,
+    "pos": "動詞"
+  },
+  {
+    "id": 371,
+    "korean": "주장하다",
+    "romanization": "jujanghada",
+    "meaning": "主張する",
+    "level": 2,
+    "pos": "動詞"
+  },
+  {
+    "id": 372,
+    "korean": "표현하다",
+    "romanization": "pyohyeonhada",
+    "meaning": "表現する",
+    "level": 2,
+    "pos": "動詞"
+  },
+  {
+    "id": 373,
+    "korean": "이끌다",
+    "romanization": "ikkeulda",
+    "meaning": "導く、リードする",
+    "level": 2,
+    "pos": "動詞"
+  },
+  {
+    "id": 374,
+    "korean": "따르다",
+    "romanization": "ttareuda",
+    "meaning": "従う",
+    "level": 2,
+    "pos": "動詞"
+  },
+  {
+    "id": 375,
+    "korean": "맡다",
+    "romanization": "matda",
+    "meaning": "担当する",
+    "level": 2,
+    "pos": "動詞"
+  },
+  {
+    "id": 376,
+    "korean": "미루다",
+    "romanization": "miruda",
+    "meaning": "先延ばしにする",
+    "level": 2,
+    "pos": "動詞"
+  },
+  {
+    "id": 377,
+    "korean": "나누다",
+    "romanization": "nanuda",
+    "meaning": "分ける、分かち合う",
+    "level": 2,
+    "pos": "動詞"
+  },
+  {
+    "id": 378,
+    "korean": "판단하다",
+    "romanization": "pandanhada",
+    "meaning": "判断する",
+    "level": 2,
+    "pos": "動詞"
+  },
+  {
+    "id": 379,
+    "korean": "적용하다",
+    "romanization": "jeogyonghada",
+    "meaning": "適用する",
+    "level": 2,
+    "pos": "動詞"
+  },
+  {
+    "id": 380,
+    "korean": "실행하다",
+    "romanization": "silhaenghada",
+    "meaning": "実行する",
+    "level": 2,
+    "pos": "動詞"
+  },
+  {
+    "id": 381,
+    "korean": "진행하다",
+    "romanization": "jinhaenghada",
+    "meaning": "進行する",
+    "level": 2,
+    "pos": "動詞"
+  },
+  {
+    "id": 382,
+    "korean": "완성하다",
+    "romanization": "wanseonghada",
+    "meaning": "完成する",
+    "level": 2,
+    "pos": "動詞"
+  },
+  {
+    "id": 383,
+    "korean": "달성하다",
+    "romanization": "dalseonghada",
+    "meaning": "達成する",
+    "level": 2,
+    "pos": "動詞"
+  },
+  {
+    "id": 384,
+    "korean": "거절하다",
+    "romanization": "geojeonhada",
+    "meaning": "断る",
+    "level": 2,
+    "pos": "動詞"
+  },
+  {
+    "id": 385,
+    "korean": "긴장하다",
+    "romanization": "ginjanhada",
+    "meaning": "緊張する",
+    "level": 2,
+    "pos": "動詞"
+  },
+  {
+    "id": 386,
+    "korean": "그리워하다",
+    "romanization": "geuriuohada",
+    "meaning": "恋しく思う",
+    "level": 2,
+    "pos": "動詞"
+  },
+  {
+    "id": 387,
+    "korean": "후회하다",
+    "romanization": "huhoehada",
+    "meaning": "後悔する",
+    "level": 2,
+    "pos": "動詞"
+  },
+  {
+    "id": 388,
+    "korean": "자랑하다",
+    "romanization": "jaranghada",
+    "meaning": "自慢する",
+    "level": 2,
+    "pos": "動詞"
+  },
+  {
+    "id": 389,
+    "korean": "위로하다",
+    "romanization": "wirohada",
+    "meaning": "慰める",
+    "level": 2,
+    "pos": "動詞"
+  },
+  {
+    "id": 390,
+    "korean": "격려하다",
+    "romanization": "gyeongnyeohada",
+    "meaning": "励ます",
+    "level": 2,
+    "pos": "動詞"
+  },
+  {
+    "id": 391,
+    "korean": "칭찬하다",
+    "romanization": "chingchanhada",
+    "meaning": "褒める",
+    "level": 2,
+    "pos": "動詞"
+  },
+  {
+    "id": 392,
+    "korean": "비판하다",
+    "romanization": "bipanhada",
+    "meaning": "批判する",
+    "level": 2,
+    "pos": "動詞"
+  },
+  {
+    "id": 393,
+    "korean": "다양하다",
+    "romanization": "dayanghada",
+    "meaning": "多様だ",
+    "level": 2,
+    "pos": "形容詞"
+  },
+  {
+    "id": 394,
+    "korean": "복잡하다",
+    "romanization": "bokjaphada",
+    "meaning": "複雑だ",
+    "level": 2,
+    "pos": "形容詞"
+  },
+  {
+    "id": 395,
+    "korean": "적극적이다",
+    "romanization": "jeokgeukjeoida",
+    "meaning": "積極的だ",
+    "level": 2,
+    "pos": "形容詞"
+  },
+  {
+    "id": 396,
+    "korean": "긍정적이다",
+    "romanization": "geungjeongjeogida",
+    "meaning": "肯定的だ",
+    "level": 2,
+    "pos": "形容詞"
+  },
+  {
+    "id": 397,
+    "korean": "부정적이다",
+    "romanization": "bujeongjeogida",
+    "meaning": "否定的だ",
+    "level": 2,
+    "pos": "形容詞"
+  },
+  {
+    "id": 398,
+    "korean": "자연스럽다",
+    "romanization": "jayeonseureopda",
+    "meaning": "自然だ",
+    "level": 2,
+    "pos": "形容詞"
+  },
+  {
+    "id": 399,
+    "korean": "지속적이다",
+    "romanization": "jisokjeogida",
+    "meaning": "持続的だ",
+    "level": 2,
+    "pos": "形容詞"
+  },
+  {
+    "id": 400,
+    "korean": "효율적이다",
+    "romanization": "hyoyuljeogida",
+    "meaning": "効率的だ",
+    "level": 2,
+    "pos": "形容詞"
+  },
+  {
+    "id": 401,
+    "korean": "구체적이다",
+    "romanization": "guchejeogida",
+    "meaning": "具体的だ",
+    "level": 2,
+    "pos": "形容詞"
+  },
+  {
+    "id": 402,
+    "korean": "일반적이다",
+    "romanization": "ilbanjeogida",
+    "meaning": "一般的だ",
+    "level": 2,
+    "pos": "形容詞"
+  },
+  {
+    "id": 403,
+    "korean": "습관",
+    "romanization": "seupgwan",
+    "meaning": "習慣",
+    "level": 2,
+    "pos": "名詞"
+  },
+  {
+    "id": 404,
+    "korean": "규칙",
+    "romanization": "gyuchik",
+    "meaning": "規則",
+    "level": 2,
+    "pos": "名詞"
+  },
+  {
+    "id": 405,
+    "korean": "목표",
+    "romanization": "mokpyo",
+    "meaning": "目標",
+    "level": 2,
+    "pos": "名詞"
+  },
+  {
+    "id": 406,
+    "korean": "실력",
+    "romanization": "sillyeok",
+    "meaning": "実力",
+    "level": 2,
+    "pos": "名詞"
+  },
+  {
+    "id": 407,
+    "korean": "가능성",
+    "romanization": "ganeungseong",
+    "meaning": "可能性",
+    "level": 2,
+    "pos": "名詞"
+  },
+  {
+    "id": 408,
+    "korean": "책임",
+    "romanization": "chaegim",
+    "meaning": "責任",
+    "level": 2,
+    "pos": "名詞"
+  },
+  {
+    "id": 409,
+    "korean": "자신감",
+    "romanization": "jasigam",
+    "meaning": "自信",
+    "level": 2,
+    "pos": "名詞"
+  },
+  {
+    "id": 410,
+    "korean": "인상",
+    "romanization": "insang",
+    "meaning": "印象",
+    "level": 2,
+    "pos": "名詞"
+  },
+  {
+    "id": 411,
+    "korean": "분위기",
+    "romanization": "bunuigi",
+    "meaning": "雰囲気",
+    "level": 2,
+    "pos": "名詞"
+  },
+  {
+    "id": 412,
+    "korean": "업무",
+    "romanization": "eomu",
+    "meaning": "業務",
+    "level": 2,
+    "pos": "名詞"
+  },
+  {
+    "id": 413,
+    "korean": "회의",
+    "romanization": "hoeui",
+    "meaning": "会議",
+    "level": 2,
+    "pos": "名詞"
+  },
+  {
+    "id": 414,
+    "korean": "발표",
+    "romanization": "balpyo",
+    "meaning": "発表",
+    "level": 2,
+    "pos": "名詞"
+  },
+  {
+    "id": 415,
+    "korean": "결론",
+    "romanization": "gyeollun",
+    "meaning": "結論",
+    "level": 2,
+    "pos": "名詞"
+  },
+  {
+    "id": 416,
+    "korean": "의견",
+    "romanization": "uigyeon",
+    "meaning": "意見",
+    "level": 2,
+    "pos": "名詞"
+  },
+  {
+    "id": 417,
+    "korean": "관심",
+    "romanization": "gwansim",
+    "meaning": "関心、興味",
+    "level": 2,
+    "pos": "名詞"
+  },
+  {
+    "id": 418,
+    "korean": "스트레스",
+    "romanization": "seuteuleseu",
+    "meaning": "ストレス",
+    "level": 2,
+    "pos": "名詞"
+  },
+  {
+    "id": 419,
+    "korean": "기준",
+    "romanization": "gijun",
+    "meaning": "基準",
+    "level": 2,
+    "pos": "名詞"
+  },
+  {
+    "id": 420,
+    "korean": "조건",
+    "romanization": "jogeon",
+    "meaning": "条件",
+    "level": 2,
+    "pos": "名詞"
+  },
+  {
+    "id": 421,
+    "korean": "결심",
+    "romanization": "gyeolsim",
+    "meaning": "決意、覚悟",
+    "level": 2,
+    "pos": "名詞"
+  },
+  {
+    "id": 422,
+    "korean": "사실",
+    "romanization": "sasil",
+    "meaning": "事実",
+    "level": 2,
+    "pos": "名詞"
+  },
+  {
+    "id": 423,
+    "korean": "촉진하다",
+    "romanization": "chokjinhada",
+    "meaning": "促進する",
+    "level": 3,
+    "pos": "動詞"
+  },
+  {
+    "id": 424,
+    "korean": "억제하다",
+    "romanization": "eokjehada",
+    "meaning": "抑制する",
+    "level": 3,
+    "pos": "動詞"
+  },
+  {
+    "id": 425,
+    "korean": "지속하다",
+    "romanization": "jisokhada",
+    "meaning": "持続する",
+    "level": 3,
+    "pos": "動詞"
+  },
+  {
+    "id": 426,
+    "korean": "유지하다",
+    "romanization": "yujihada",
+    "meaning": "維持する",
+    "level": 3,
+    "pos": "動詞"
+  },
+  {
+    "id": 427,
+    "korean": "강화하다",
+    "romanization": "ganghwahada",
+    "meaning": "強化する",
+    "level": 3,
+    "pos": "動詞"
+  },
+  {
+    "id": 428,
+    "korean": "확대하다",
+    "romanization": "hwakdaehada",
+    "meaning": "拡大する",
+    "level": 3,
+    "pos": "動詞"
+  },
+  {
+    "id": 429,
+    "korean": "통합하다",
+    "romanization": "tonghaehada",
+    "meaning": "統合する",
+    "level": 3,
+    "pos": "動詞"
+  },
+  {
+    "id": 430,
+    "korean": "추구하다",
+    "romanization": "chuguhada",
+    "meaning": "追求する",
+    "level": 3,
+    "pos": "動詞"
+  },
+  {
+    "id": 431,
+    "korean": "실천하다",
+    "romanization": "silcheonhada",
+    "meaning": "実践する",
+    "level": 3,
+    "pos": "動詞"
+  },
+  {
+    "id": 432,
+    "korean": "반영하다",
+    "romanization": "banyeonghada",
+    "meaning": "反映する",
+    "level": 3,
+    "pos": "動詞"
+  },
+  {
+    "id": 433,
+    "korean": "검토하다",
+    "romanization": "geomtohada",
+    "meaning": "検討する",
+    "level": 3,
+    "pos": "動詞"
+  },
+  {
+    "id": 434,
+    "korean": "수립하다",
+    "romanization": "suriphada",
+    "meaning": "樹立する、策定する",
+    "level": 3,
+    "pos": "動詞"
+  },
+  {
+    "id": 435,
+    "korean": "제기하다",
+    "romanization": "jegihada",
+    "meaning": "提起する",
+    "level": 3,
+    "pos": "動詞"
+  },
+  {
+    "id": 436,
+    "korean": "논리",
+    "romanization": "nolli",
+    "meaning": "論理",
+    "level": 3,
+    "pos": "名詞"
+  },
+  {
+    "id": 437,
+    "korean": "근거",
+    "romanization": "geungeo",
+    "meaning": "根拠",
+    "level": 3,
+    "pos": "名詞"
+  },
+  {
+    "id": 438,
+    "korean": "전략",
+    "romanization": "jeollyak",
+    "meaning": "戦略",
+    "level": 3,
+    "pos": "名詞"
+  },
+  {
+    "id": 439,
+    "korean": "범위",
+    "romanization": "beomwi",
+    "meaning": "範囲",
+    "level": 3,
+    "pos": "名詞"
+  },
+  {
+    "id": 440,
+    "korean": "단계",
+    "romanization": "dangye",
+    "meaning": "段階",
+    "level": 3,
+    "pos": "名詞"
+  },
+  {
+    "id": 441,
+    "korean": "수준",
+    "romanization": "sujun",
+    "meaning": "水準、レベル",
+    "level": 3,
+    "pos": "名詞"
+  },
+  {
+    "id": 442,
+    "korean": "비율",
+    "romanization": "biryul",
+    "meaning": "比率",
+    "level": 3,
+    "pos": "名詞"
+  },
+  {
+    "id": 443,
+    "korean": "규모",
+    "romanization": "gyumo",
+    "meaning": "規模",
+    "level": 3,
+    "pos": "名詞"
+  },
+  {
+    "id": 444,
+    "korean": "구조",
+    "romanization": "gujo",
+    "meaning": "構造",
+    "level": 3,
+    "pos": "名詞"
+  },
+  {
+    "id": 445,
+    "korean": "체계",
+    "romanization": "chegye",
+    "meaning": "体系",
+    "level": 3,
+    "pos": "名詞"
+  },
+  {
+    "id": 446,
+    "korean": "패턴",
+    "romanization": "paeteun",
+    "meaning": "パターン",
+    "level": 3,
+    "pos": "名詞"
+  },
+  {
+    "id": 447,
+    "korean": "동향",
+    "romanization": "donghyang",
+    "meaning": "動向",
+    "level": 3,
+    "pos": "名詞"
+  },
+  {
+    "id": 448,
+    "korean": "추세",
+    "romanization": "chuse",
+    "meaning": "趨勢、トレンド",
+    "level": 3,
+    "pos": "名詞"
+  },
+  {
+    "id": 449,
+    "korean": "배경",
+    "romanization": "baegyeong",
+    "meaning": "背景",
+    "level": 3,
+    "pos": "名詞"
+  },
+  {
+    "id": 450,
+    "korean": "맥락",
+    "romanization": "maengnak",
+    "meaning": "文脈",
+    "level": 3,
+    "pos": "名詞"
+  },
+  {
+    "id": 451,
+    "korean": "함의",
+    "romanization": "hami",
+    "meaning": "含意、示唆",
+    "level": 3,
+    "pos": "名詞"
+  },
+  {
+    "id": 452,
+    "korean": "성과",
+    "romanization": "seonggwa",
+    "meaning": "成果",
+    "level": 3,
+    "pos": "名詞"
+  },
+  {
+    "id": 453,
+    "korean": "지표",
+    "romanization": "jipyo",
+    "meaning": "指標",
+    "level": 3,
+    "pos": "名詞"
+  },
+  {
+    "id": 454,
+    "korean": "심각하다",
+    "romanization": "simgakada",
+    "meaning": "深刻だ",
+    "level": 3,
+    "pos": "形容詞"
+  },
+  {
+    "id": 455,
+    "korean": "복합적이다",
+    "romanization": "bokhamjeogida",
+    "meaning": "複合的だ",
+    "level": 3,
+    "pos": "形容詞"
+  },
+  {
+    "id": 456,
+    "korean": "포괄적이다",
+    "romanization": "pogwaljeogida",
+    "meaning": "包括的だ",
+    "level": 3,
+    "pos": "形容詞"
+  },
+  {
+    "id": 457,
+    "korean": "합리적이다",
+    "romanization": "hamnijeogida",
+    "meaning": "合理的だ",
+    "level": 3,
+    "pos": "形容詞"
+  },
+  {
+    "id": 458,
+    "korean": "체계적이다",
+    "romanization": "chegyejeogida",
+    "meaning": "体系的だ",
+    "level": 3,
+    "pos": "形容詞"
+  },
+  {
+    "id": 459,
+    "korean": "객관적이다",
+    "romanization": "gaekgwanjeogida",
+    "meaning": "客観的だ",
+    "level": 3,
+    "pos": "形容詞"
+  },
+  {
+    "id": 460,
+    "korean": "주관적이다",
+    "romanization": "jugwanjeogida",
+    "meaning": "主観的だ",
+    "level": 3,
+    "pos": "形容詞"
+  },
+  {
+    "id": 461,
+    "korean": "넣다",
+    "romanization": "neota",
+    "meaning": "入れる",
+    "level": 1,
+    "pos": "動詞"
+  },
+  {
+    "id": 462,
+    "korean": "꺼내다",
+    "romanization": "kkeonaeda",
+    "meaning": "取り出す",
+    "level": 1,
+    "pos": "動詞"
+  },
+  {
+    "id": 463,
+    "korean": "고르다",
+    "romanization": "goreuda",
+    "meaning": "選ぶ",
+    "level": 1,
+    "pos": "動詞"
+  },
+  {
+    "id": 464,
+    "korean": "모이다",
+    "romanization": "moida",
+    "meaning": "集まる",
+    "level": 1,
+    "pos": "動詞"
+  },
+  {
+    "id": 465,
+    "korean": "떠나다",
+    "romanization": "tteonada",
+    "meaning": "出発する、去る",
+    "level": 1,
+    "pos": "動詞"
+  },
+  {
+    "id": 466,
+    "korean": "돌아오다",
+    "romanization": "doraoda",
+    "meaning": "戻る",
+    "level": 1,
+    "pos": "動詞"
+  },
+  {
+    "id": 467,
+    "korean": "잡다",
+    "romanization": "japda",
+    "meaning": "掴む",
+    "level": 1,
+    "pos": "動詞"
+  },
+  {
+    "id": 468,
+    "korean": "놓다",
+    "romanization": "noda",
+    "meaning": "置く、放す",
+    "level": 1,
+    "pos": "動詞"
+  },
+  {
+    "id": 469,
+    "korean": "올리다",
+    "romanization": "ollida",
+    "meaning": "上げる、載せる",
+    "level": 1,
+    "pos": "動詞"
+  },
+  {
+    "id": 470,
+    "korean": "내리다",
+    "romanization": "naerida",
+    "meaning": "下げる、降ろす",
+    "level": 1,
+    "pos": "動詞"
+  },
+  {
+    "id": 471,
+    "korean": "켜다",
+    "romanization": "kyeoda",
+    "meaning": "つける（電源）",
+    "level": 1,
+    "pos": "動詞"
+  },
+  {
+    "id": 472,
+    "korean": "끄다",
+    "romanization": "kkeuda",
+    "meaning": "消す（電源）",
+    "level": 1,
+    "pos": "動詞"
+  },
+  {
+    "id": 473,
+    "korean": "맞다",
+    "romanization": "matda",
+    "meaning": "合っている、正しい",
+    "level": 1,
+    "pos": "形容詞"
+  },
+  {
+    "id": 474,
+    "korean": "틀리다",
+    "romanization": "teullida",
+    "meaning": "間違っている",
+    "level": 1,
+    "pos": "形容詞"
+  },
+  {
+    "id": 475,
+    "korean": "익숙하다",
+    "romanization": "iksukada",
+    "meaning": "慣れている",
+    "level": 1,
+    "pos": "形容詞"
+  },
+  {
+    "id": 476,
+    "korean": "연습",
+    "romanization": "yeonseup",
+    "meaning": "練習",
+    "level": 2,
+    "pos": "名詞"
+  },
+  {
+    "id": 477,
+    "korean": "성적",
+    "romanization": "seongjeok",
+    "meaning": "成績",
+    "level": 2,
+    "pos": "名詞"
+  },
+  {
+    "id": 478,
+    "korean": "점수",
+    "romanization": "jeomssu",
+    "meaning": "点数",
+    "level": 2,
+    "pos": "名詞"
+  },
+  {
+    "id": 479,
+    "korean": "계기",
+    "romanization": "gyegi",
+    "meaning": "きっかけ",
+    "level": 2,
+    "pos": "名詞"
+  },
+  {
+    "id": 480,
+    "korean": "차이",
+    "romanization": "chai",
+    "meaning": "差、違い",
+    "level": 2,
+    "pos": "名詞"
+  },
+  {
+    "id": 481,
+    "korean": "장점",
+    "romanization": "jangjeom",
+    "meaning": "長所",
+    "level": 2,
+    "pos": "名詞"
+  },
+  {
+    "id": 482,
+    "korean": "단점",
+    "romanization": "danjeom",
+    "meaning": "短所",
+    "level": 2,
+    "pos": "名詞"
+  },
+  {
+    "id": 483,
+    "korean": "원인",
+    "romanization": "wonin",
+    "meaning": "原因",
+    "level": 2,
+    "pos": "名詞"
+  },
+  {
+    "id": 484,
+    "korean": "결과",
+    "romanization": "gyeolgwa",
+    "meaning": "結果",
+    "level": 2,
+    "pos": "名詞"
+  },
+  {
+    "id": 485,
+    "korean": "과목",
+    "romanization": "gwamok",
+    "meaning": "科目",
+    "level": 2,
+    "pos": "名詞"
+  },
+  {
+    "id": 486,
+    "korean": "참다",
+    "romanization": "chamda",
+    "meaning": "我慢する",
+    "level": 2,
+    "pos": "動詞"
+  },
+  {
+    "id": 487,
+    "korean": "극복하다",
+    "romanization": "geukbokhada",
+    "meaning": "克服する",
+    "level": 2,
+    "pos": "動詞"
+  },
+  {
+    "id": 488,
+    "korean": "의존하다",
+    "romanization": "uijeonhada",
+    "meaning": "依存する",
+    "level": 2,
+    "pos": "動詞"
+  },
+  {
+    "id": 489,
+    "korean": "참여하다",
+    "romanization": "chamyeohada",
+    "meaning": "参与する",
+    "level": 2,
+    "pos": "動詞"
+  },
+  {
+    "id": 490,
+    "korean": "공유하다",
+    "romanization": "gongyuhada",
+    "meaning": "共有する",
+    "level": 2,
+    "pos": "動詞"
+  },
+  {
+    "id": 491,
+    "korean": "제약",
+    "romanization": "jeyak",
+    "meaning": "制約",
+    "level": 3,
+    "pos": "名詞"
+  },
+  {
+    "id": 492,
+    "korean": "갈등",
+    "romanization": "galdeung",
+    "meaning": "葛藤、対立",
+    "level": 3,
+    "pos": "名詞"
+  },
+  {
+    "id": 493,
+    "korean": "협력",
+    "romanization": "hyeomnyeok",
+    "meaning": "協力",
+    "level": 3,
+    "pos": "名詞"
+  },
+  {
+    "id": 494,
+    "korean": "경쟁",
+    "romanization": "gyeongjaeng",
+    "meaning": "競争",
+    "level": 3,
+    "pos": "名詞"
+  },
+  {
+    "id": 495,
+    "korean": "혁신",
+    "romanization": "hyeoksin",
+    "meaning": "革新",
+    "level": 3,
+    "pos": "名詞"
+  },
+  {
+    "id": 496,
+    "korean": "지속성",
+    "romanization": "jisoknseong",
+    "meaning": "持続性",
+    "level": 3,
+    "pos": "名詞"
+  },
+  {
+    "id": 497,
+    "korean": "투명성",
+    "romanization": "tumyeongseong",
+    "meaning": "透明性",
+    "level": 3,
+    "pos": "名詞"
+  },
+  {
+    "id": 498,
+    "korean": "다양성",
+    "romanization": "dayanseong",
+    "meaning": "多様性",
+    "level": 3,
+    "pos": "名詞"
+  },
+  {
+    "id": 499,
+    "korean": "창의성",
+    "romanization": "changiiseong",
+    "meaning": "創意性、創造性",
+    "level": 3,
+    "pos": "名詞"
+  }
+]

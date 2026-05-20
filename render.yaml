@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: korean-vocabulary
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: DATABASE_URL
+        value: postgresql://ranking_record_user:0DMQwPfdf8oIA0ttdtlUS6QkNqYU6Ure@dpg-d868ig9kh4rs73ck4ie0-a/ranking_record
+      - key: PYTHON_VERSION
+        value: "3.11"
+      - key: RESET_DB
+        value: "false"

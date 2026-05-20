@@ -1,0 +1,1283 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>韓国語単語マスター</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        :root {
+            --primary: #5B5EA6;
+            --primary-light: #9B9ECE;
+            --accent: #E8485F;
+            --success: #4CAF50;
+            --warning: #FF9800;
+            --bg: #F8F9FC;
+            --card-bg: #FFFFFF;
+            --text: #2D3142;
+            --text-light: #6B7394;
+            --border: #E4E7F1;
+            --shadow: 0 4px 24px rgba(45, 49, 66, 0.08);
+            --radius: 16px;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans JP', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 24px 0;
+        }
+
+        header h1 {
+            font-size: 1.8rem;
+            color: var(--primary);
+            margin-bottom: 4px;
+        }
+
+        header p {
+            color: var(--text-light);
+            font-size: 0.9rem;
+        }
+
+        .nav-tabs {
+            display: flex;
+            gap: 4px;
+            background: var(--card-bg);
+            border-radius: var(--radius);
+            padding: 4px;
+            box-shadow: var(--shadow);
+            margin-bottom: 24px;
+        }
+
+        .nav-tab {
+            flex: 1;
+            padding: 12px 16px;
+            border: none;
+            background: transparent;
+            border-radius: 12px;
+            font-size: 0.95rem;
+            font-weight: 500;
+            color: var(--text-light);
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .nav-tab.active { background: var(--primary); color: white; }
+        .nav-tab:hover:not(.active) { background: var(--border); }
+
+        .tab-content { display: none; }
+        .tab-content.active { display: block; }
+
+        /* Auth Panel */
+        .auth-panel {
+            background: var(--card-bg);
+            border-radius: var(--radius);
+            padding: 32px;
+            box-shadow: var(--shadow);
+            text-align: center;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        .auth-tabs {
+            display: flex;
+            gap: 0;
+            margin-bottom: 24px;
+            border-radius: 10px;
+            overflow: hidden;
+            border: 2px solid var(--border);
+        }
+
+        .auth-tab {
+            flex: 1;
+            padding: 10px;
+            border: none;
+            background: white;
+            font-size: 0.9rem;
+            font-weight: 500;
+            cursor: pointer;
+            color: var(--text-light);
+            transition: all 0.2s;
+        }
+
+        .auth-tab.active { background: var(--primary); color: white; }
+
+        .form-group {
+            margin-bottom: 16px;
+            text-align: left;
+        }
+
+        .form-group label {
+            display: block;
+            font-size: 0.85rem;
+            font-weight: 500;
+            color: var(--text-light);
+            margin-bottom: 4px;
+        }
+
+        .form-group input, .form-group select {
+            width: 100%;
+            padding: 12px 16px;
+            border: 2px solid var(--border);
+            border-radius: 10px;
+            font-size: 1rem;
+            transition: border-color 0.2s;
+            outline: none;
+            background: white;
+        }
+
+        .form-group input:focus, .form-group select:focus {
+            border-color: var(--primary);
+        }
+
+        .btn {
+            padding: 12px 24px;
+            border: none;
+            border-radius: 10px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .btn-primary { background: var(--primary); color: white; width: 100%; }
+        .btn-primary:hover { opacity: 0.9; transform: translateY(-1px); }
+        .btn-secondary { background: var(--border); color: var(--text); }
+        .btn-success { background: var(--success); color: white; }
+        .btn-danger { background: var(--accent); color: white; }
+
+        .emoji-picker {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 8px;
+        }
+
+        .emoji-option {
+            width: 40px;
+            height: 40px;
+            border: 2px solid var(--border);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.4rem;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .emoji-option.selected {
+            border-color: var(--primary);
+            background: rgba(91, 94, 166, 0.1);
+        }
+
+        /* User Info Bar */
+        .user-bar {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            background: var(--card-bg);
+            border-radius: var(--radius);
+            padding: 12px 20px;
+            box-shadow: var(--shadow);
+            margin-bottom: 20px;
+        }
+
+        .user-bar .avatar { font-size: 1.6rem; }
+        .user-bar .info { flex: 1; }
+        .user-bar .info .name { font-weight: 600; }
+        .user-bar .info .location { font-size: 0.8rem; color: var(--text-light); }
+        .user-bar .logout-btn {
+            font-size: 0.8rem;
+            padding: 6px 12px;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+            background: white;
+            cursor: pointer;
+        }
+
+        /* Stats Grid */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 12px;
+            margin-bottom: 24px;
+        }
+
+        .stat-card {
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 16px 12px;
+            text-align: center;
+            box-shadow: var(--shadow);
+        }
+
+        .stat-card .value {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary);
+        }
+
+        .stat-card .label {
+            font-size: 0.75rem;
+            color: var(--text-light);
+            margin-top: 2px;
+        }
+
+        /* Word Card */
+        .word-card {
+            background: var(--card-bg);
+            border-radius: var(--radius);
+            padding: 48px 32px;
+            text-align: center;
+            box-shadow: var(--shadow);
+            margin-bottom: 20px;
+            min-height: 240px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: transform 0.2s;
+            position: relative;
+        }
+
+        .word-card:hover { transform: translateY(-2px); }
+
+        .word-card .korean {
+            font-size: 2.8rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: var(--text);
+        }
+
+        .word-card .romanization {
+            font-size: 1.1rem;
+            color: var(--text-light);
+            margin-bottom: 8px;
+        }
+
+        .word-card .pos-tag {
+            display: inline-block;
+            padding: 4px 12px;
+            background: rgba(91, 94, 166, 0.1);
+            color: var(--primary);
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 500;
+            margin-bottom: 16px;
+        }
+
+        .word-card .level-tag {
+            position: absolute;
+            top: 16px;
+            right: 16px;
+            padding: 4px 10px;
+            background: rgba(232, 72, 95, 0.1);
+            color: var(--accent);
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+
+        .word-card .card-counter {
+            position: absolute;
+            top: 16px;
+            left: 16px;
+            padding: 4px 10px;
+            background: rgba(91, 94, 166, 0.1);
+            color: var(--primary);
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+
+        .word-card .meaning {
+            font-size: 1.4rem;
+            color: var(--accent);
+            font-weight: 500;
+            opacity: 0;
+            transform: translateY(8px);
+            transition: all 0.3s;
+            margin-top: 12px;
+        }
+
+        .word-card .meaning.show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .word-card .hint {
+            position: absolute;
+            bottom: 16px;
+            font-size: 0.75rem;
+            color: var(--text-light);
+        }
+
+        /* Controls */
+        .controls {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+
+        .controls .btn { flex: 1; padding: 14px; font-size: 1rem; }
+
+        .secondary-controls {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin-bottom: 12px;
+        }
+
+        .secondary-controls .btn {
+            flex: 1;
+            min-width: 100px;
+            padding: 10px 16px;
+            font-size: 0.85rem;
+        }
+
+        /* Level Filter */
+        .level-filter {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+
+        .level-filter .filter-label {
+            font-size: 0.85rem;
+            color: var(--text-light);
+            font-weight: 500;
+        }
+
+        .level-chip {
+            padding: 6px 14px;
+            border: 2px solid var(--border);
+            border-radius: 20px;
+            font-size: 0.8rem;
+            cursor: pointer;
+            transition: all 0.2s;
+            background: white;
+            font-weight: 500;
+            color: var(--text-light);
+        }
+
+        .level-chip.active {
+            border-color: var(--primary);
+            background: var(--primary);
+            color: white;
+        }
+
+        /* Progress Bar */
+        .progress-container {
+            background: var(--border);
+            border-radius: 20px;
+            height: 8px;
+            margin-bottom: 24px;
+            overflow: hidden;
+        }
+
+        .progress-bar {
+            height: 100%;
+            background: linear-gradient(90deg, var(--primary), var(--primary-light));
+            border-radius: 20px;
+            transition: width 0.5s ease;
+        }
+
+        /* Leaderboard */
+        .leaderboard-card {
+            background: var(--card-bg);
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+            overflow: hidden;
+        }
+
+        .leaderboard-header {
+            padding: 20px 24px;
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .leaderboard-header h3 { color: var(--primary); }
+
+        .sort-select {
+            padding: 8px 12px;
+            border: 2px solid var(--border);
+            border-radius: 8px;
+            font-size: 0.85rem;
+            outline: none;
+        }
+
+        .leaderboard-list { list-style: none; }
+
+        .leaderboard-item {
+            display: flex;
+            align-items: center;
+            padding: 16px 24px;
+            border-bottom: 1px solid var(--border);
+            transition: background 0.2s;
+        }
+
+        .leaderboard-item:last-child { border-bottom: none; }
+        .leaderboard-item:hover { background: rgba(91, 94, 166, 0.03); }
+
+        .leaderboard-item .rank {
+            width: 32px;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            font-weight: 700;
+            font-size: 0.85rem;
+            margin-right: 12px;
+            background: var(--border);
+            color: var(--text-light);
+        }
+
+        .leaderboard-item:nth-child(1) .rank { background: #FFD700; color: #7A5C00; }
+        .leaderboard-item:nth-child(2) .rank { background: #C0C0C0; color: #555; }
+        .leaderboard-item:nth-child(3) .rank { background: #CD7F32; color: #fff; }
+
+        .leaderboard-item .avatar { font-size: 1.4rem; margin-right: 12px; }
+        .leaderboard-item .user-info { flex: 1; }
+        .leaderboard-item .user-info .username { font-weight: 600; font-size: 0.95rem; }
+        .leaderboard-item .user-info .location { font-size: 0.8rem; color: var(--text-light); }
+
+        .leaderboard-item .score { text-align: right; }
+        .leaderboard-item .score .value { font-size: 1.1rem; font-weight: 700; color: var(--primary); }
+        .leaderboard-item .score .label { font-size: 0.7rem; color: var(--text-light); }
+        .leaderboard-item.self { background: rgba(91, 94, 166, 0.06); }
+
+        /* Session Complete */
+        .session-complete {
+            text-align: center;
+            padding: 48px 24px;
+            background: var(--card-bg);
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+        }
+
+        .session-complete h3 {
+            font-size: 1.4rem;
+            margin-bottom: 16px;
+            color: var(--primary);
+        }
+
+        .session-stats {
+            display: flex;
+            gap: 24px;
+            justify-content: center;
+            margin-bottom: 24px;
+        }
+
+        .session-stat {
+            text-align: center;
+        }
+
+        .session-stat .num {
+            font-size: 2rem;
+            font-weight: 700;
+        }
+
+        .session-stat .num.good { color: var(--success); }
+        .session-stat .num.bad { color: var(--accent); }
+
+        .session-stat .desc {
+            font-size: 0.8rem;
+            color: var(--text-light);
+        }
+
+        .session-actions {
+            display: flex;
+            gap: 8px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        /* Toast */
+        .toast {
+            position: fixed;
+            bottom: 24px;
+            left: 50%;
+            transform: translateX(-50%) translateY(100px);
+            background: var(--text);
+            color: white;
+            padding: 12px 24px;
+            border-radius: 10px;
+            font-size: 0.9rem;
+            opacity: 0;
+            transition: all 0.3s;
+            z-index: 1000;
+        }
+
+        .toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+
+        .empty-state {
+            text-align: center;
+            padding: 60px 20px;
+            color: var(--text-light);
+        }
+
+        .empty-state .icon { font-size: 3rem; margin-bottom: 12px; }
+
+        .timer-display {
+            font-size: 0.85rem;
+            color: var(--text-light);
+            text-align: center;
+            margin-bottom: 16px;
+        }
+
+        .timer-display span { font-weight: 600; color: var(--primary); }
+
+        .error-msg {
+            color: var(--accent);
+            font-size: 0.85rem;
+            margin-top: 8px;
+        }
+
+        @media (max-width: 600px) {
+            .stats-grid { grid-template-columns: repeat(2, 1fr); }
+            .word-card .korean { font-size: 2.2rem; }
+            .word-card { padding: 36px 20px; min-height: 200px; }
+            .controls .btn { font-size: 0.9rem; padding: 12px; }
+            .session-stats { gap: 16px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>韓国語単語マスター</h1>
+            <p>한국어 어휘 학습</p>
+        </header>
+
+        <!-- Auth Section -->
+        <div id="authSection">
+            <div class="auth-panel">
+                <div class="auth-tabs">
+                    <button class="auth-tab active" onclick="switchAuthTab('login')">ログイン</button>
+                    <button class="auth-tab" onclick="switchAuthTab('register')">新規登録</button>
+                </div>
+
+                <div id="loginForm">
+                    <div class="form-group">
+                        <label>ユーザー名</label>
+                        <input type="text" id="loginUsername" placeholder="ユーザー名を入力">
+                    </div>
+                    <div class="form-group">
+                        <label>パスワード</label>
+                        <input type="password" id="loginPassword" placeholder="パスワードを入力">
+                    </div>
+                    <button class="btn btn-primary" onclick="handleLogin()">ログイン</button>
+                    <p class="error-msg" id="loginError"></p>
+                </div>
+
+                <div id="registerForm" style="display:none;">
+                    <div class="form-group">
+                        <label>ユーザー名（2〜50文字）</label>
+                        <input type="text" id="regUsername" placeholder="ユーザー名を入力">
+                    </div>
+                    <div class="form-group">
+                        <label>パスワード（4文字以上）</label>
+                        <input type="password" id="regPassword" placeholder="パスワードを入力">
+                    </div>
+                    <div class="form-group">
+                        <label>パスワード確認</label>
+                        <input type="password" id="regPasswordConfirm" placeholder="もう一度入力">
+                    </div>
+                    <div class="form-group">
+                        <label>アバターを選択</label>
+                        <div class="emoji-picker" id="emojiPicker">
+                            <div class="emoji-option selected" data-emoji="🧑‍🎓">🧑‍🎓</div>
+                            <div class="emoji-option" data-emoji="👨‍💻">👨‍💻</div>
+                            <div class="emoji-option" data-emoji="👩‍💻">👩‍💻</div>
+                            <div class="emoji-option" data-emoji="🦊">🦊</div>
+                            <div class="emoji-option" data-emoji="🐱">🐱</div>
+                            <div class="emoji-option" data-emoji="🐶">🐶</div>
+                            <div class="emoji-option" data-emoji="🌸">🌸</div>
+                            <div class="emoji-option" data-emoji="⭐">⭐</div>
+                            <div class="emoji-option" data-emoji="🎯">🎯</div>
+                            <div class="emoji-option" data-emoji="🚀">🚀</div>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary" onclick="handleRegister()">登録する</button>
+                    <p class="error-msg" id="registerError"></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main App -->
+        <div id="mainApp" style="display:none;">
+            <div class="user-bar">
+                <span class="avatar" id="userAvatar"></span>
+                <div class="info">
+                    <div class="name" id="userName"></div>
+                    <div class="location" id="userLocation"></div>
+                </div>
+                <button class="logout-btn" onclick="logout()">ログアウト</button>
+            </div>
+
+            <div class="nav-tabs">
+                <button class="nav-tab active" onclick="switchTab('learn')">学習</button>
+                <button class="nav-tab" onclick="switchTab('leaderboard')">ランキング</button>
+            </div>
+
+            <!-- Learn Tab -->
+            <div class="tab-content active" id="learnTab">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="value" id="totalCount">0</div>
+                        <div class="label">全単語</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="value" id="learnedCount">0</div>
+                        <div class="label">学習済み</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="value" id="masteredCount">0</div>
+                        <div class="label">マスター</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="value" id="studyTime">0分</div>
+                        <div class="label">学習時間</div>
+                    </div>
+                </div>
+
+                <div class="progress-container">
+                    <div class="progress-bar" id="progressBar" style="width:0%"></div>
+                </div>
+
+                <div class="timer-display">
+                    今回の学習: <span id="sessionTimer">00:00</span>
+                </div>
+
+                <div class="level-filter">
+                    <span class="filter-label">レベル:</span>
+                    <span class="level-chip active" data-level="all" onclick="setLevelFilter('all')">すべて</span>
+                    <span class="level-chip" data-level="1" onclick="setLevelFilter('1')">TOPIK 1</span>
+                    <span class="level-chip" data-level="2" onclick="setLevelFilter('2')">TOPIK 2</span>
+                    <span class="level-chip" data-level="3" onclick="setLevelFilter('3')">TOPIK 3</span>
+                </div>
+
+                <div id="cardArea">
+                    <div class="word-card" id="wordCard" onclick="toggleMeaning()">
+                        <div class="card-counter" id="cardCounter"></div>
+                        <div class="level-tag" id="levelTag"></div>
+                        <div class="korean" id="koreanWord"></div>
+                        <div class="romanization" id="romanization"></div>
+                        <div class="pos-tag" id="posTag"></div>
+                        <div class="meaning" id="wordMeaning"></div>
+                        <div class="hint">カードをクリックまたはスペースキーで意味を表示</div>
+                    </div>
+                </div>
+
+                <div class="controls" id="gradeControls">
+                    <button class="btn btn-danger" onclick="gradeWord(false)">覚えていない</button>
+                    <button class="btn btn-success" onclick="gradeWord(true)">覚えた</button>
+                </div>
+
+                <div class="secondary-controls">
+                    <button class="btn btn-secondary" onclick="startLearning()">新しい単語</button>
+                    <button class="btn btn-secondary" onclick="startReview()">復習する</button>
+                    <button class="btn btn-secondary" onclick="resetProgress()">リセット</button>
+                </div>
+            </div>
+
+            <!-- Leaderboard Tab -->
+            <div class="tab-content" id="leaderboardTab">
+                <div class="leaderboard-card">
+                    <div class="leaderboard-header">
+                        <h3>ランキング</h3>
+                        <select class="sort-select" id="sortSelect" onchange="loadLeaderboard()">
+                            <option value="words_mastered">マスター数</option>
+                            <option value="words_learned">学習数</option>
+                            <option value="total_study_seconds">学習時間</option>
+                            <option value="streak_days">連続日数</option>
+                        </select>
+                    </div>
+                    <ul class="leaderboard-list" id="leaderboardList">
+                        <li class="empty-state">
+                            <div class="icon">📊</div>
+                            <p>読み込み中...</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="toast" id="toast"></div>
+
+    <script>
+    const API_BASE = window.location.origin;
+
+    const state = {
+        words: [],
+        currentWord: null,
+        learnedIds: new Set(),
+        masteredIds: new Set(),
+        unmasteredIds: new Set(),
+        mode: 'learning',   // 'learning' | 'reviewing'
+        user: null,
+        credentials: null,
+        sessionStart: null,
+        sessionSeconds: 0,
+        timerInterval: null,
+        levelFilter: 'all',
+        wordsSinceSync: 0,
+    };
+
+    function getAuthHeader() {
+        if (!state.credentials) return {};
+        // btoa doesn't support Unicode; use TextEncoder to handle any characters
+        const str = `${state.credentials.username}:${state.credentials.password}`;
+        const bytes = new TextEncoder().encode(str);
+        const encoded = btoa(String.fromCharCode(...bytes));
+        return { 'Authorization': `Basic ${encoded}` };
+    }
+
+    function getFilteredWords() {
+        if (state.levelFilter === 'all') return state.words;
+        return state.words.filter(w => String(w.level) === state.levelFilter);
+    }
+
+    // --- Init ---
+    async function init() {
+        const res = await fetch('/static/word_data.json');
+        state.words = await res.json();
+
+        const saved = localStorage.getItem('koreanVocabAuth');
+        if (saved) {
+            const { username, password } = JSON.parse(saved);
+            try {
+                const userRes = await fetch(`${API_BASE}/api/login`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ username, password }),
+                });
+                if (userRes.ok) {
+                    state.user = await userRes.json();
+                    state.credentials = { username, password };
+                    loadLocalProgress();
+                    showMainApp();
+                    return;
+                }
+            } catch (e) {}
+        }
+        showAuth();
+    }
+
+    // --- Auth ---
+    function showAuth() {
+        document.getElementById('authSection').style.display = 'block';
+        document.getElementById('mainApp').style.display = 'none';
+    }
+
+    function showMainApp() {
+        document.getElementById('authSection').style.display = 'none';
+        document.getElementById('mainApp').style.display = 'block';
+        document.getElementById('userAvatar').textContent = state.user.avatar_emoji;
+        document.getElementById('userName').textContent = state.user.username;
+        document.getElementById('userLocation').textContent = state.user.location || '';
+        updateStats();
+        startSessionTimer();
+    }
+
+    function switchAuthTab(tab) {
+        document.querySelectorAll('.auth-tab').forEach(el => el.classList.remove('active'));
+        if (tab === 'login') {
+            document.querySelectorAll('.auth-tab')[0].classList.add('active');
+            document.getElementById('loginForm').style.display = 'block';
+            document.getElementById('registerForm').style.display = 'none';
+        } else {
+            document.querySelectorAll('.auth-tab')[1].classList.add('active');
+            document.getElementById('loginForm').style.display = 'none';
+            document.getElementById('registerForm').style.display = 'block';
+        }
+    }
+
+    async function handleLogin() {
+        const username = document.getElementById('loginUsername').value.trim();
+        const password = document.getElementById('loginPassword').value;
+        const errEl = document.getElementById('loginError');
+        errEl.textContent = '';
+
+        if (!username || !password) {
+            errEl.textContent = 'ユーザー名とパスワードを入力してください';
+            return;
+        }
+
+        try {
+            const res = await fetch(`${API_BASE}/api/login`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ username, password }),
+            });
+            if (res.ok) {
+                state.user = await res.json();
+                state.credentials = { username, password };
+                localStorage.setItem('koreanVocabAuth', JSON.stringify({ username, password }));
+                loadLocalProgress();
+                showMainApp();
+                showToast(`おかえりなさい、${username}さん！`);
+            } else {
+                try {
+                    const err = await res.json();
+                    errEl.textContent = err.detail || `ログインに失敗しました (${res.status})`;
+                } catch {
+                    errEl.textContent = `サーバーエラーが発生しました (${res.status})`;
+                }
+            }
+        } catch (e) {
+            errEl.textContent = 'ネットワークエラーが発生しました';
+        }
+    }
+
+    async function handleRegister() {
+        const username = document.getElementById('regUsername').value.trim();
+        const password = document.getElementById('regPassword').value;
+        const confirmPw = document.getElementById('regPasswordConfirm').value;
+        const emoji = document.querySelector('.emoji-option.selected')?.dataset.emoji || '🧑‍🎓';
+        const errEl = document.getElementById('registerError');
+        errEl.textContent = '';
+
+        if (!username || !password) {
+            errEl.textContent = 'すべてのフィールドを入力してください';
+            return;
+        }
+        if (password !== confirmPw) {
+            errEl.textContent = 'パスワードが一致しません';
+            return;
+        }
+
+        try {
+            const res = await fetch(`${API_BASE}/api/register`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ username, password, avatar_emoji: emoji }),
+            });
+            if (res.ok) {
+                state.user = await res.json();
+                state.credentials = { username, password };
+                localStorage.setItem('koreanVocabAuth', JSON.stringify({ username, password }));
+                showMainApp();
+                showToast(`登録完了！ようこそ、${username}さん！`);
+            } else {
+                try {
+                    const err = await res.json();
+                    errEl.textContent = err.detail || `登録に失敗しました (${res.status})`;
+                } catch {
+                    errEl.textContent = `サーバーエラーが発生しました (${res.status})`;
+                }
+            }
+        } catch (e) {
+            errEl.textContent = 'ネットワークエラーが発生しました';
+        }
+    }
+
+    async function logout() {
+        await syncToServer();
+        localStorage.removeItem('koreanVocabAuth');
+        state.user = null;
+        state.credentials = null;
+        state.currentWord = null;
+        state.learnedIds = new Set();
+        state.masteredIds = new Set();
+        state.unmasteredIds = new Set();
+        state.mode = 'learning';
+        state.wordsSinceSync = 0;
+        state.sessionSeconds = 0;
+        stopSessionTimer();
+        showAuth();
+    }
+
+    // --- Emoji Picker ---
+    document.getElementById('emojiPicker').addEventListener('click', (e) => {
+        const opt = e.target.closest('.emoji-option');
+        if (!opt) return;
+        document.querySelectorAll('.emoji-option').forEach(el => el.classList.remove('selected'));
+        opt.classList.add('selected');
+    });
+
+    // --- Level Filter ---
+    function setLevelFilter(level) {
+        state.levelFilter = level;
+        document.querySelectorAll('.level-chip').forEach(el => el.classList.remove('active'));
+        document.querySelector(`.level-chip[data-level="${level}"]`).classList.add('active');
+        updateStats();
+    }
+
+    // --- Learning ---
+    function loadLocalProgress() {
+        // 每次登录先清空，确保不混入上一个用户的数据
+        state.learnedIds = new Set();
+        state.masteredIds = new Set();
+        state.unmasteredIds = new Set();
+
+        // 服务端数据为权威来源
+        const serverLearned = new Set((state.user.learned_ids || []).map(String));
+        const serverMastered = new Set((state.user.mastered_ids || []).map(String));
+
+        const key = `koreanVocab_${state.user.username}`;
+        const saved = localStorage.getItem(key);
+        let localLearned = new Set();
+        let localMastered = new Set();
+        let localUnmastered = new Set();
+        if (saved) {
+            const data = JSON.parse(saved);
+            localLearned  = new Set(data.learnedIds  || []);
+            localMastered = new Set(data.masteredIds  || []);
+            localUnmastered = new Set(data.unmasteredIds || []);
+        }
+
+        // Union: server + local
+        state.learnedIds  = new Set([...serverLearned,  ...localLearned]);
+        state.masteredIds = new Set([...serverMastered, ...localMastered]);
+        // Unmastered: locally unmastered words that server also hasn't marked mastered
+        state.unmasteredIds = new Set();
+        localUnmastered.forEach(id => {
+            if (!serverMastered.has(id)) state.unmasteredIds.add(id);
+        });
+        // Words learned but not in either mastered set → also unmastered
+        state.learnedIds.forEach(id => {
+            if (!state.masteredIds.has(id)) state.unmasteredIds.add(id);
+        });
+        state.masteredIds.forEach(id => state.unmasteredIds.delete(id));
+
+        saveLocalProgress();
+    }
+
+    function saveLocalProgress() {
+        const key = `koreanVocab_${state.user.username}`;
+        localStorage.setItem(key, JSON.stringify({
+            learnedIds: [...state.learnedIds],
+            masteredIds: [...state.masteredIds],
+            unmasteredIds: [...state.unmasteredIds],
+            lastUpdated: new Date().toISOString(),
+        }));
+    }
+
+    function updateStats() {
+        const filtered = getFilteredWords();
+        document.getElementById('totalCount').textContent = filtered.length;
+
+        const learnedInFilter = filtered.filter(w => state.learnedIds.has(String(w.id))).length;
+        const masteredInFilter = filtered.filter(w => state.masteredIds.has(String(w.id))).length;
+        document.getElementById('learnedCount').textContent = learnedInFilter;
+        document.getElementById('masteredCount').textContent = masteredInFilter;
+
+        const totalSec = (state.user?.total_study_seconds || 0) + state.sessionSeconds;
+        const hours = Math.floor(totalSec / 3600);
+        const mins = Math.floor((totalSec % 3600) / 60);
+        document.getElementById('studyTime').textContent = hours > 0 ? `${hours}時間${mins}分` : `${mins}分`;
+
+        const pct = filtered.length > 0 ? (learnedInFilter / filtered.length * 100) : 0;
+        document.getElementById('progressBar').style.width = pct + '%';
+    }
+
+    function startLearning() {
+        state.mode = 'learning';
+        showNextWord();
+    }
+
+    function startReview() {
+        state.mode = 'reviewing';
+        showNextWord();
+    }
+
+    function showNextWord() {
+        const filtered = getFilteredWords();
+        let pool;
+
+        if (state.mode === 'learning') {
+            pool = filtered.filter(w => !state.learnedIds.has(String(w.id)));
+            if (pool.length === 0) {
+                // 新词学完，自动切换复习
+                state.mode = 'reviewing';
+                showToast('新しい単語をすべて学習しました！復習モードへ');
+                pool = filtered.filter(w =>
+                    state.learnedIds.has(String(w.id)) && !state.masteredIds.has(String(w.id))
+                );
+                if (pool.length === 0) {
+                    showToast('🎉 すべての単語をマスターしました！');
+                    return;
+                }
+            }
+        } else {
+            pool = filtered.filter(w =>
+                state.learnedIds.has(String(w.id)) && !state.masteredIds.has(String(w.id))
+            );
+            if (pool.length === 0) {
+                showToast('🎉 すべての単語をマスターしました！');
+                return;
+            }
+        }
+
+        state.currentWord = pool[Math.floor(Math.random() * pool.length)];
+        renderCard();
+    }
+
+    function renderCard() {
+        if (!document.getElementById('wordCard')) {
+            document.getElementById('cardArea').innerHTML = `
+                <div class="word-card" id="wordCard" onclick="toggleMeaning()">
+                    <div class="card-counter" id="cardCounter"></div>
+                    <div class="level-tag" id="levelTag"></div>
+                    <div class="korean" id="koreanWord"></div>
+                    <div class="romanization" id="romanization"></div>
+                    <div class="pos-tag" id="posTag"></div>
+                    <div class="meaning" id="wordMeaning"></div>
+                    <div class="hint">カードをクリックまたはスペースキーで意味を表示</div>
+                </div>
+            `;
+        }
+        const filtered = getFilteredWords();
+        const remaining = state.mode === 'learning'
+            ? filtered.filter(w => !state.learnedIds.has(String(w.id))).length
+            : filtered.filter(w => state.learnedIds.has(String(w.id)) && !state.masteredIds.has(String(w.id))).length;
+
+        const w = state.currentWord;
+        document.getElementById('wordCard').style.display = 'flex';
+        document.getElementById('gradeControls').style.display = 'flex';
+        document.getElementById('koreanWord').textContent = w.korean;
+        document.getElementById('romanization').textContent = w.romanization;
+        document.getElementById('posTag').textContent = w.pos || '';
+        document.getElementById('levelTag').textContent = `TOPIK ${w.level || 1}`;
+        document.getElementById('cardCounter').textContent = `残り ${remaining}語`;
+        document.getElementById('wordMeaning').textContent = w.meaning;
+        document.getElementById('wordMeaning').classList.remove('show');
+        document.querySelector('.word-card .hint').style.display = 'block';
+    }
+
+    function toggleMeaning() {
+        const el = document.getElementById('wordMeaning');
+        if (!el) return;
+        el.classList.toggle('show');
+        const hint = document.querySelector('.word-card .hint');
+        if (hint) hint.style.display = el.classList.contains('show') ? 'none' : 'block';
+    }
+
+    function gradeWord(mastered) {
+        if (!state.currentWord) return;
+        const id = String(state.currentWord.id);
+        state.learnedIds.add(id);
+        if (mastered) {
+            state.masteredIds.add(id);
+            state.unmasteredIds.delete(id);
+        } else {
+            state.unmasteredIds.add(id);
+            state.masteredIds.delete(id);
+        }
+        saveLocalProgress();
+        updateStats();
+        state.wordsSinceSync++;
+        if (state.wordsSinceSync >= 10) {
+            state.wordsSinceSync = 0;
+            syncToServer();
+        }
+        showNextWord();
+    }
+
+    async function resetProgress() {
+        if (!confirm('学習進捗をすべてリセットしますか？')) return;
+        state.learnedIds.clear();
+        state.masteredIds.clear();
+        state.unmasteredIds.clear();
+        state.currentWord = null;
+        state.wordsSinceSync = 0;
+        state.sessionSeconds = 0;
+        saveLocalProgress();
+        updateStats();
+        await syncToServer();  // 立即将空列表同步到服务端，清除服务端进度
+
+        document.getElementById('cardArea').innerHTML = `
+            <div class="word-card" id="wordCard" onclick="toggleMeaning()">
+                <div class="card-counter" id="cardCounter"></div>
+                <div class="level-tag" id="levelTag"></div>
+                <div class="korean" id="koreanWord"></div>
+                <div class="romanization" id="romanization"></div>
+                <div class="pos-tag" id="posTag"></div>
+                <div class="meaning" id="wordMeaning"></div>
+                <div class="hint">カードをクリックまたはスペースキーで意味を表示</div>
+            </div>
+        `;
+        showToast('進捗をリセットしました');
+    }
+
+    // --- Timer ---
+    function startSessionTimer() {
+        state.sessionStart = Date.now();
+        state.sessionSeconds = 0;
+        state.timerInterval = setInterval(() => {
+            state.sessionSeconds = Math.floor((Date.now() - state.sessionStart) / 1000);
+            const m = String(Math.floor(state.sessionSeconds / 60)).padStart(2, '0');
+            const s = String(state.sessionSeconds % 60).padStart(2, '0');
+            document.getElementById('sessionTimer').textContent = `${m}:${s}`;
+            updateStats();
+        }, 1000);
+    }
+
+    function stopSessionTimer() {
+        if (state.timerInterval) clearInterval(state.timerInterval);
+    }
+
+    // --- Sync ---
+    async function syncToServer() {
+        if (!state.user || !state.credentials) return;
+        try {
+            const res = await fetch(`${API_BASE}/api/users/${state.user.username}/sync`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    ...getAuthHeader(),
+                },
+                body: JSON.stringify({
+                    study_seconds: state.sessionSeconds,
+                    study_date: new Date(Date.now() + 9*60*60*1000).toISOString().slice(0, 10),
+                    learned_ids: [...state.learnedIds].map(Number),
+                    mastered_ids: [...state.masteredIds].map(Number),
+                }),
+            });
+            if (res.ok) {
+                state.user = await res.json();
+                state.sessionStart = Date.now();
+                state.sessionSeconds = 0;
+                document.getElementById('userLocation').textContent = state.user.location || '';
+            }
+        } catch (e) {}
+    }
+
+    // --- Leaderboard ---
+    async function loadLeaderboard() {
+        const sortBy = document.getElementById('sortSelect').value;
+        const list = document.getElementById('leaderboardList');
+        list.innerHTML = '<li class="empty-state"><div class="icon">⏳</div><p>読み込み中...</p></li>';
+
+        try {
+            const res = await fetch(`${API_BASE}/api/leaderboard?sort_by=${sortBy}&limit=50`);
+            const data = await res.json();
+
+            if (data.length === 0) {
+                list.innerHTML = '<li class="empty-state"><div class="icon">📊</div><p>データがありません</p></li>';
+                return;
+            }
+
+            list.innerHTML = data.map(entry => {
+                const isSelf = state.user && entry.username === state.user.username;
+                const scoreValue = formatScore(entry, sortBy);
+                const scoreLabel = getScoreLabel(sortBy);
+                return `
+                    <li class="leaderboard-item${isSelf ? ' self' : ''}">
+                        <div class="rank">${entry.rank}</div>
+                        <span class="avatar">${entry.avatar_emoji}</span>
+                        <div class="user-info">
+                            <div class="username">${entry.username}${isSelf ? '（自分）' : ''}</div>
+                            <div class="location">${entry.location || ''}</div>
+                        </div>
+                        <div class="score">
+                            <div class="value">${scoreValue}</div>
+                            <div class="label">${scoreLabel}</div>
+                        </div>
+                    </li>
+                `;
+            }).join('');
+        } catch (e) {
+            list.innerHTML = '<li class="empty-state"><div class="icon">❌</div><p>読み込みに失敗しました</p></li>';
+        }
+    }
+
+    function formatScore(entry, sortBy) {
+        if (sortBy === 'total_study_seconds') {
+            const h = Math.floor(entry.total_study_seconds / 3600);
+            const m = Math.floor((entry.total_study_seconds % 3600) / 60);
+            return h > 0 ? `${h}時間${m}分` : `${m}分`;
+        }
+        if (sortBy === 'streak_days') return `${entry.streak_days}日`;
+        if (sortBy === 'words_mastered') return `${entry.words_mastered}語`;
+        return `${entry.words_learned}語`;
+    }
+
+    function getScoreLabel(sortBy) {
+        return { words_mastered: 'マスター', words_learned: '学習済み', total_study_seconds: '学習時間', streak_days: '連続' }[sortBy] || '';
+    }
+
+    // --- Tab switching ---
+    async function switchTab(tab) {
+        document.querySelectorAll('.nav-tab').forEach(el => el.classList.remove('active'));
+        document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+        if (tab === 'learn') {
+            document.querySelectorAll('.nav-tab')[0].classList.add('active');
+            document.getElementById('learnTab').classList.add('active');
+        } else {
+            document.querySelectorAll('.nav-tab')[1].classList.add('active');
+            document.getElementById('leaderboardTab').classList.add('active');
+            await syncToServer();
+            loadLeaderboard();
+        }
+    }
+
+    // --- Utils ---
+    function shuffle(arr) {
+        const a = [...arr];
+        for (let i = a.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [a[i], a[j]] = [a[j], a[i]];
+        }
+        return a;
+    }
+
+    function showToast(msg, duration = 2500) {
+        const t = document.getElementById('toast');
+        t.textContent = msg;
+        t.classList.add('show');
+        setTimeout(() => t.classList.remove('show'), duration);
+    }
+
+    // --- Keyboard shortcuts ---
+    document.addEventListener('keydown', (e) => {
+        if (document.getElementById('authSection').style.display !== 'none') return;
+        if (e.target.tagName === 'INPUT') return;
+        if (e.key === ' ') { e.preventDefault(); toggleMeaning(); }
+        if (!state.currentWord) return;
+        if (e.key === '1' || e.key === 'ArrowLeft') gradeWord(false);
+        if (e.key === '2' || e.key === 'ArrowRight') gradeWord(true);
+    });
+
+    document.addEventListener('keydown', (e) => {
+        if (e.key !== 'Enter') return;
+        if (document.getElementById('authSection').style.display === 'none') return;
+        if (document.getElementById('loginForm').style.display !== 'none') {
+            handleLogin();
+        } else {
+            handleRegister();
+        }
+    });
+
+    // --- Auto sync ---
+    window.addEventListener('beforeunload', () => syncToServer());
+    setInterval(syncToServer, 120000);
+
+    // --- Start ---
+    init();
+    </script>
+</body>
+</html>
